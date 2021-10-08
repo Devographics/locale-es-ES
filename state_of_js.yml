@@ -135,7 +135,7 @@ translations:
     - key: features.decorators
       t: Decoradores
     - key: features.decorators.description
-      t:  >
+      t: >
         En su forma más sencilla, un decorador es una forma de
         envolver un trozo de código con otro, literalmente, decorándolo.
     - key: features.dynamic_import
