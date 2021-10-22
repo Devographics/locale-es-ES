@@ -7,7 +7,7 @@ translations:
     - key: general.no_preview_surveys
       t: No hay encuestas para mostrar
 
-      - key: general.global_nav
+    - key: general.global_nav
       t: Global
 
 
