@@ -68,7 +68,7 @@ translations:
 
     # credits
     - key: credits.thanks
-      t: Especiales agradecimientos
+      t: Agradecimiento especial
     - key: credits.accessibility
       t: Consultoría de accesibilidad
     - key: credits.survey_design
@@ -99,7 +99,7 @@ translations:
     - key: general.close_nav
       t: Cerrar el menú
     - key: general.open_nav
-      t: Abrit el menú
+      t: Abrir el menú
     - key: general.more_actions
       t: Más acciones
     - key: general.skip_to_content

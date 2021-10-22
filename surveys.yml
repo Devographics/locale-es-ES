@@ -5,9 +5,9 @@ translations:
     ###########################################################################
 
     - key: general.no_preview_surveys
-      t: No hay encuestas que visualizar
+      t: No hay encuestas para mostrar
 
-      - key: general.global_nav
+    - key: general.global_nav
       t: Global
 
 
@@ -24,19 +24,19 @@ translations:
     - key: faq.anonymous_survey
       t: ¿Puedo realizar la encuesta de forma anónima?
     - key: faq.anonymous_survey.description
-      t: Sí, puedes utilizar un correo electrónico falso (ejemplo@ejemplo.com) o no identificativo para realizar la encuesta siempre que la guardes para acceder a ella en el futuro.
+      t: Sí. Puedes utilizar un correo electrónico falso (ejemplo@ejemplo.com) o no identificativo para realizar la encuesta siempre que lo guardes para acceder a ella en el futuro.
     - key: faq.questions_required
       t: ¿Es necesario responder a todas las preguntas?
     - key: faq.questions_required.description
-      t: No, todas las preguntas de la encuesta son opcionales y se pueden omitir libremente. 
+      t: No. Todas las preguntas de la encuesta son opcionales y se pueden omitir libremente. 
     - key: faq.data_published
       t: ¿Mis datos se harán públicos?
     - key: faq.data_published.description
-      t: Sí, todos los datos se divulgarán públicamente, pero solo después de haber sido borrada cualquier información de identificación (correos electrónicos, nombres de usuario, ID, etc.).
+      t: Sí. Todos los datos se divulgarán públicamente, pero sólo después de haber sido borrada cualquier información identificativa (correos electrónicos, nombres de usuario, ID, etc.).
     - key: faq.survey_design
-      t: ¿Cómo son diseñadas las encuestas?
+      t: ¿Cómo se diseñan las encuestas?
     - key: faq.survey_design.description
-      t: Las encuestas están diseñadas en base a los commentarios de la comunidad, y también son revisadas por expertos. Puedes [obtener más información aquí](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb). 
+      t: Las encuestas están diseñadas en base a los comentarios de la comunidad, y también son revisadas por expertos. Puedes [obtener más información aquí](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb). 
     - key: faq.results_released
       t: ¿Cuándo se darán a conocer los resultados?
     - key: faq.results_released.description
@@ -48,4 +48,4 @@ translations:
     - key: faq.team
       t: ¿Quién realiza estas encuestas?
     - key: faq.team.description
-      t: Las encuestas son manejadas por mi [me](http://sachagreif.com) en colaboración de contribuidores, traductores y voluntarios.
+      t: Las encuestas las gestiono [yo](http://sachagreif.com) con ayuda de otros miembros del equipo, traductores y voluntarios.
