@@ -63,6 +63,22 @@ translations:
       t: Traductores
     - key: general.translation_help
       t: Ayuda con las Traducciones
+    - key: general.newly_added
+      t: Cosas nuevas agregadas este año
+
+    # credits
+    - key: credits.thanks
+      t: Especiales agradecimientos
+    - key: credits.accessibility
+      t: Consultoría de accesibilidad
+    - key: credits.survey_design
+      t: Diseño de encuestas
+    - key: credits.logo_design
+      t: Deseño del logo
+
+    # support
+    - key: general.support_from
+      t: Con el apoyo de
 
     # footer
     - key: general.privacy_policy
@@ -80,6 +96,14 @@ translations:
         Nota: todas las preguntas son opcionales, así que no necesitas responderlas todas.
     - key: general.data_is_saved
       t: Salvamos tus respuestas cada vez que navegas entre secciones.
+    - key: general.close_nav
+      t: Cerrar el menú
+    - key: general.open_nav
+      t: Abrit el menú
+    - key: general.more_actions
+      t: Más acciones
+    - key: general.skip_to_content
+      t: Ir al contenido
 
     # thanks
     - key: general.back
@@ -118,6 +142,8 @@ translations:
     # forms
     - key: forms.select_option
       t: Elige una opción
+    - key: forms.clear_field
+      t: Limpiar el campo
 
     # partners
     - key: partners.our_partners
@@ -291,6 +317,24 @@ translations:
       t: Estoy de Acuerdo
     - key: options.opinions.4
       t: Estoy Fuertemente de Acuerdo
+
+    # age
+    - key: options.age.range_less_than_10
+      t: Menor de 10 años
+    - key: options.age.range_10_18
+      t: 10-18 años
+    - key: options.age.range_18_24
+      t: 18-24 años
+    - key: options.age.range_25_34
+      t: 24-34 años
+    - key: options.age.range_35_44
+      t: 35-44 años
+    - key: options.age.range_45_54
+      t: 45-54 años
+    - key: options.age.range_55_64
+      t: 55-64 años
+    - key: options.age.range_more_than_65
+      t: 65 años o más
 
     # years of experience
     - key: options.years_of_experience.range_less_than_1
@@ -488,6 +532,23 @@ translations:
     - key: options.race_ethnicity.native_american_islander_australian
       t: Nativo Americano, de las Islas del Pacífico o Indígena Australiano
 
+    # Disability Status
+    - key: options.disability_status.visual_impairments
+      t: >
+        Deficiencias visuales (como: ceguera, daltonismo, etc.)
+    - key: options.disability_status.hearing_impairments
+      t: >
+        Deficiencias auditivas (como: sordera, tinnitus, etc.)
+    - key: options.disability_status.mobility_impairments
+      t: >
+        Problemas de movilidad (como: artritis, síndrome del túnel carpiano, etc.)
+    - key: options.disability_status.cognitive_impairments
+      t: >
+        Deterioro cognitivo (como: ansiedad, dislexia, etc.)
+    - key: options.disability_status.not_listed
+      t: >
+        No listada
+
     # Form Factors
     - key: options.form_factors.desktop
       t: Escritorio
@@ -559,6 +620,39 @@ translations:
       t: Transporte
     - key: options.industry_sector.manufacturing
       t: Fabricación
+
+    # tool evaluation
+    - key: options.tool_evaluation.learning_curve_documentation
+      t: Documentación
+    - key: options.tool_evaluation.learning_curve_documentation.description
+      t: ¿Es fácil de aprender y / o está bien documentada?
+    - key: options.tool_evaluation.momentum_popularity
+      t: Exageración e impulso
+    - key: options.tool_evaluation.momentum_popularity.description
+      t: ¿Está generando mucho alboroto actualmente?
+    - key: options.tool_evaluation.user_base_size.description
+      t: ¿Es una opción bien establecida con una larga trayectoria?
+    - key: options.tool_evaluation.developer_experience_tooling
+      t: Experiencia de desarrollador
+    - key: options.tool_evaluation.developer_experience_tooling.description
+      t: Tiene buenas herramientas de desarrollo, un gran ecosistema de plugins, etc.?
+    - key: options.tool_evaluation.performance_user_experience
+      t: Experiencia de usuario
+    - key: options.tool_evaluation.performance_user_experience.description
+      t: ¿Te ayuda a crear experiencias de usuario fluidas y eficaces?
+    - key: options.tool_evaluation.creator_team
+      t: Creador y equipo
+    - key: options.tool_evaluation.creator_team.description
+      t: ¿Está respaldado por un equipo conocido, bien financiado o un equipo con experiencia?
+    - key: options.tool_evaluation.accessibility_features
+      t: Características de accesibilidad
+    - key: options.tool_evaluation.accessibility_features.description
+      t: ¿Es bueno para crear experiencias accesibles para todos los usuarios?
+    - key: options.tool_evaluation.community_inclusivity
+      t: Comunidad e inclusión
+    - key: options.tool_evaluation.community_inclusivity.description
+      t: ¿Tiene una comunidad vibrante y acogedora construida a su alrededor?
+
 
     ###########################################################################
     # Tools
