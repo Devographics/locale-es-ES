@@ -1,0 +1,16 @@
+locale: es-ES
+namespace: css
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    - key: general.survey_intro_css2021
+      t: >
+          Hola CSS, ¿Qué has estado haciendo últimamente? Oh, en serio, ¿`@container`? y 
+          ¿el tamaño intrínseco? Y también  ¿`@property`? ¡Vaya, has estado ocupado!
+
+          A pesar de que la pandemia ha seguido complicándonos la vida a todos a lo largo de 2021,
+          colaboradores dedicados alrededor del mundo lograron que CSS siguiera avanzando.
+          Y, una vez más, es hora de estudiar el ecosistema de CSS y descubrir
+          a dónde se dirige. ¡Y tal vez aprender sobre algunas cosas nuevas mientras estamos aquí!
