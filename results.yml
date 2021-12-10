@@ -352,7 +352,7 @@ translations:
           con el estado general de esta categoría?
 
     # newsletter
-    - key: blocks.newsletter
+    - key: blocks.newsletter.title
       t: Estate Conectado
     - key: blocks.newsletter.description
       t: |
