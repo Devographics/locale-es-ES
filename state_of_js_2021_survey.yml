@@ -1,0 +1,21 @@
+locale: es-ES
+namespace: js
+translations:
+    ###########################################################################
+    # General
+    ###########################################################################
+
+    - key: general.survey_intro_js2021
+      t: >
+          Primero, los juegos Olímpicos de 2020 se retrasaron hasta 2021,
+          y ahora, ¡la encuesta de State of JavaScript, está ocurriendo en 2022!
+
+
+          Es cierto: entre el trabajo, la familia y todo el jaleo en el mundo,
+          algunas cosas se han interrumpido un poco.
+          
+
+          Pero aunque nos hemos atrasado un año, esperamos que los datos que nos
+          de la encuesta sean igual de informativos y reveladores que siempre.
+          Y no os preocupéis. ¡Habrá otra encuesta hacia el final del año para enderezar las cosas!
+          

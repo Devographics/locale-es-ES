@@ -50,6 +50,11 @@ translations:
     - key: sections.animations_transforms.description
       t: Animando y transformando elementos.
 
+    - key: sections.accessibility.title
+      t: Accesibilidad
+    - key: sections.accessibility.description
+      t: Características y técnicas de accesibilidad. 
+
     - key: sections.media_queries.title
       t: Media Queries
     - key: sections.media_queries.description
@@ -153,6 +158,93 @@ translations:
     - key: options.css_for_email.3.short
       t: Principalmente
 
+    # what do you use CSS for?
+    - key: options.what_do_you_use_css_for.marketing_sites
+      t: Sitios de marketing y landing pages
+    - key: options.what_do_you_use_css_for.design_systems
+      t: Sistemas de diseño
+    - key: options.what_do_you_use_css_for.blogs
+      t: Blogs o sitios con mucho texto
+    - key: options.what_do_you_use_css_for.web_apps
+      t: Aplicaciones web
+    - key: options.what_do_you_use_css_for.mobile_apps
+      t: Aplicaciones móviles
+    - key: options.what_do_you_use_css_for.css_art
+      t: Arte con CSS e ilustraciones
+    - key: options.what_do_you_use_css_for.emails
+      t: Correos electrónicos
+    - key: options.what_do_you_use_css_for.printed_documents
+      t: Documentos impresos
+
+    # CSS pain points
+    - key: options.css_pain_points.browser_interoperability
+      t: Compatibilidad con Navegadores
+    - key: options.css_pain_points.browser_interoperability.description
+      t: Diferencias entre Chrome, Safari, Firefox, etc.
+    - key: options.css_pain_points.interactions
+      t: Interacciones
+    - key: options.css_pain_points.interactions.description
+      t: Responding to user input or other events (scroll, hover, etc.). 
+    - key: options.css_pain_points.architecture
+      t: Arquitectura y Mantenimiento
+    - key: options.css_pain_points.architecture.description
+      t: Organización de archivos, eliminación de código muerto, refactorización, etc.
+    - key: options.css_pain_points.layout_positioning
+      t: Disposición y Posicionamiento
+    - key: options.css_pain_points.layout_positioning.description
+      t: Preparando la disposición y asegurándote de que las cosas están donde deben estar. 
+    - key: options.css_pain_points.scoping_specificity
+      t: Alcance y Especificidad
+    - key: options.css_pain_points.scoping_specificity.description
+      t: Lidiando con la cascada, sobrescribiendo estilos, etc.
+    - key: options.css_pain_points.responsive_design
+      t: Diseño Responsive
+    - key: options.css_pain_points.responsive_design.description
+      t: Adaptando distribuciones y diseños a distintos factores de forma. 
+    - key: options.css_pain_points.form_elements_styling
+      t: Dando estilo a Elementos de Formularios
+    - key: options.css_pain_points.form_elements_styling.description
+      t: Personaliza como se ven y reaccionan Elementos de Formularios. 
+    - key: options.css_pain_points.performance_issues
+      t: Problemas de Rendimiento 
+    - key: options.css_pain_points.performance_issues.description
+      t: Lidiando con el Scroll, consiguiendo animaciones más fluidas, etc. 
+
+
+    # CSS missing features (same as features section)
+    - key: options.currently_missing_from_css.nesting
+      t: Anidamiento
+    - key: options.currently_missing_from_css.nesting.description
+      t: Ser capaz de anidar estilos en CSS nativo.
+    - key: options.currently_missing_from_css.parent_selector
+      t: Selector del Padre
+    - key: options.currently_missing_from_css.parent_selector.description
+      t: La habilidad de elegir al padre basándonos es sus hijos.
+    - key: options.currently_missing_from_css.browser_support
+      t: Soporte para Navegadores
+    - key: options.currently_missing_from_css.browser_support.description
+      t: Mejorar el soporte en navegadores de características existentes.
+    - key: options.currently_missing_from_css.mixins
+      t: Mixins
+    - key: options.currently_missing_from_css.mixins.description
+      t: Agrupar y reutilizar definiciones dinámicamente.
+    - key: options.currently_missing_from_css.color_functions
+      t: Funciones de Color
+    - key: options.currently_missing_from_css.color_functions.description
+      t: Funciones para manipular colores. 
+    - key: options.currently_missing_from_css.container_queries
+      t: Container Queries
+    - key: options.currently_missing_from_css.container_queries.description
+      t: Escribir estilos basados en las dimensiones del contenedor padre.
+    - key: options.currently_missing_from_css.scoping
+      t: Alcance
+    - key: options.currently_missing_from_css.scoping.description
+      t: La habilidad de ser más específico con los estilos aplicados. 
+    - key: options.currently_missing_from_css.subgrid
+      t: Subgrid
+    - key: options.currently_missing_from_css.subgrid.description
+      t: Anidando en niveles más profundos subgrids dentro del grid del padre. 
+
     ###########################################################################
     # Features
     ###########################################################################
@@ -183,6 +275,16 @@ translations:
       t: <code>aspect-ratio</code>
     - key: features.content_visibility
       t: <code>content-visibility</code>
+    - key: features.flexbox_gap
+      t: Propiedad gap para flexbox
+    - key: features.break_rules
+      t: Reglas de ruptura
+    - key: features.break_rules.description
+      t: <code>break-inside</code>, <code>break-before</code>, <code>break-after</code>
+    - key: features.at_container
+      t: Container Queries
+    - key: features.at_container.description
+      t: <code>@container</code> query
 
     # shapes & graphics
     - key: features.shapes
@@ -202,6 +304,20 @@ translations:
     - key: features.backdrop_filter
       t: <code>backdrop-filter</code>
 
+    - key: features.intrinsic_sizing
+      t: Tamaño Intrínseco
+    - key: features.intrinsic_sizing.description
+      t: <code>min-content</code>, <code>max-content</code>, <code>fit-content</code>
+    - key: features.repeating_linear_gradient
+      t: <code>repeating-linear-gradient()</code>
+    - key: features.conic_gradient
+      t: <code>conic-gradient()</code>
+    - key: features.color_function
+      t: <code>color()</code>
+
+    - key: features.accent_color
+      t: <code>accent-color</code>
+
     # interactions
     - key: features.scroll_snap
       t: CSS Scroll Snap
@@ -213,6 +329,8 @@ translations:
       t: <code>touch-action</code>
     - key: features.pointer_events
       t: <code>pointer-events</code>
+    - key: features.scroll_timeline
+      t: <code>scroll-timeline</code>
 
     # typography
     - key: features.web_fonts
@@ -260,6 +378,24 @@ translations:
     - key: features.color_gamut
       t: <code>color-gamut</code>
 
+    - key: features.prefers_reduced_data
+      t: <code>prefers-reduced-data</code>
+    - key: features.tabindex
+      t: <code>tabindex</code> HTML attribute
+    - key: features.tabindex.description
+      t: <code>&lt;div tabindex="0"&gt;</code>
+
+    - key: features.color_contrast
+      t: <code>color-contrast()</code>
+
+    - key: features.color_scheme
+      t: <code>color-scheme</code>
+
+    - key: features.aria_attributes
+      t: Atributos ARIA de HTML
+    - key: features.aria_attributes.description
+      t: <code>role</code>, <code>aria-label</code>, etc.
+
     # other features
     - key: features.variables
       t: Variables (Propiedades Custom)
@@ -275,6 +411,51 @@ translations:
       t: Funciones de Comparación
     - key: features.comparison_functions.description
       t: <code>min()</code>, <code>max()</code>, and <code>clamp()</code>
+
+    - key: features.at_property
+      t: Propiedades Personalizadas de Houdini
+    - key: features.at_property.description
+      t: <code>@property</code>
+    - key: features.at_layer
+      t: <code>@layer</code>
+    - key: features.content_visibility
+      t: <code>content-visibility</code>
+    - key: features.marker
+      t: <code>::marker</code> pseudo-element
+
+    # missing features (see also options)
+    - key: features.nesting
+      t: Anidamiento
+    - key: features.nesting.description
+      t: Ser capaz de anidar estilos en CSS nativo.
+    - key: features.parent_selector
+      t: Selector del Padre
+    - key: features.parent_selector.description
+      t: La habilidad de elegir al padre basándonos es sus hijos.
+    - key: features.browser_support
+      t: Soporte para Navegadores
+    - key: features.browser_support.description
+      t: Mejorar el soporte en navegadores de características existentes.
+    - key: features.mixins
+      t: Mixins
+    - key: features.mixins.description
+      t: Agrupar y reutilizar definiciones dinámicamente.  
+    - key: features.color_functions
+      t: Funciones de Color
+    - key: features.color_functions.description
+      t: Funciones para manipular colores.
+    - key: features.container_queries
+      t: Container Queries
+    - key: features.container_queries.description
+      t: Escribir estilos basados en las dimensiones del contenedor padre.
+    - key: features.scoping
+      t: Alcance
+    - key: features.scoping.description
+      t: La habilidad de ser más específico con los estilos aplicados.
+    - key: features.subgrid
+      t: Subgrid
+    - key: features.subgrid.description
+      t: Anidando en niveles más profundos subgrids dentro del grid del padre.
 
     ###########################################################################
     # Units & Selectors
@@ -474,6 +655,15 @@ translations:
     - key: environments.form_factors.description
       t: ¿En qué tamaños y formatos de pantalla haces pruebas?
 
+    - key: environments.accessibility_features
+      t: Características de Accesibilidad
+    - key: environments.accessibility_features.description
+      t: ¿Qué características de accesibilidad implementas habitualmente?
+    - key: environments.accessibility_features.others
+      t: Otras Características de Accesibilidad
+    - key: environments.accessibility_features.others
+      t: ¿Qué otras características de accesibilidad implementas habitualmente?
+
     - key: environments.css_for_print
       t: CSS para Imprimir
     - key: environments.css_for_print.description
@@ -484,10 +674,22 @@ translations:
     - key: environments.css_for_email.description
       t: ¿Escribes CSS para correos electrónicos?
 
+    - key: environments.what_do_you_use_css_for
+      t: ¿Para qué usas CSS principalmente?
+    - key: environments.what_do_you_use_css_for.description
+      t: ¿En qué tipos de proyectos usas CSS principalmente?
+    - key: environments.what_do_you_use_css_for.others
+      t: Otro tipo de proyectos
+
     - key: charts.axis_legends.css_for_print
       t: Frecuencia
     - key: charts.axis_legends.css_for_email
       t: Frecuencia
+
+    - key: tools_others.tool_evaluation
+      t: Evaluación de Librerías
+    - key: tools_others.tool_evaluation.description
+      t: Para cada emparejamiento, elige los factores principales que tienes en cuenta para evaluar una nueva librería.
 
     ###########################################################################
     # Opinions
@@ -523,10 +725,30 @@ translations:
     - key: opinions.enjoy_writing_css.title
       t: Satisfacción
 
+    # Browser interoperability question
+    - key: opinions_others.browser_interoperability_features.others
+      t: Incompatibilidades con Navegadores
+    - key: opinions_others.browser_interoperability_features.others.description
+      t: >
+        ¿Hay alguna característica de CSS que te haya constado usar
+        por las diferencias entre navegadores?
+
+    # Pain Points
+    - key: opinions.css_pain_points
+      t: Puntos Dolorosos de CSS
+    - key: opinions.css_pain_points.description
+      t: Para cada emparejamiento, elige un aspecto de CSS con el que te hayas te nido que pegar demasiado.
+
+    - key: opinions_others.css_pain_points.others
+      t: Otros Puntos Dolorosos de CSS
+
+    # Missing Features
+    - key: opinions.currently_missing_from_css
+      t: ¿Qué te parece que le falta a CSS actualmente?
+    - key: opinions.currently_missing_from_css.description
+      t: Por cada emparejamiento, elige la característica de CSS que más te gustaría poder usar hoy.
     - key: opinions_others.currently_missing_from_css.others
-      t: ¿Qué crees que le falta a CSS?
-    - key: opinions_others.currently_missing_from_css.others.description
-      t: Características que quieres ver en CSS algún día.
+      t: Otras Características que Faltan
     - key: opinions_others.currently_missing_from_css.others.note
       t: >
           Estos resultados han sido normalizados en base a un campo de texto libre.
@@ -537,8 +759,24 @@ translations:
     - key: opinions.sum_up_one_word_css.description
       t: ¿Cómo resumirías tu opinión de CSS en una palabra?
 
+    - key: happiness.pre_post_processors
+      t: ¿Como estás de satisfecho con el estado de los pre/post procesadores?
+    - key: happiness.css_in_js
+      t: ¿Cómo de satisfecho estás con el estado de las librerías de CSS-in-JS?
+    - key: happiness.css_frameworks
+      t: ¿Cómo de satisfecho estás con el estado de los frameworks de CSS?
+
     - key: happiness.state_of_the_web
-      t: ¿Cómo de contento estás con el estado general de las tecnologías web?
+      t: ¿Cómo de satisfecho estás con el estado general de las tecnologías web?
 
     - key: happiness.state_of_css
-      t: ¿Cómo de contento estás con el estado general de CSS?
+      t: ¿Cómo de satisfecho estás con el estado general de CSS?
+
+    ###########################################################################
+    # Resources
+    ###########################################################################
+    
+    - key: resources.first_steps
+      t: Primeros Pasos con CSS
+    - key: resources.first_steps.description
+      t: ¿Cómo has empezado a aprender CSS?

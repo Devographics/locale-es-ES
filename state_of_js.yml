@@ -86,11 +86,122 @@ translations:
     - key: sections.build_tools.description
       t: Compilando y construyendo código
 
+    - key: sections.monorepo_tools.title
+      t: Herramientas de Monorepos
+    - key: sections.monorepo_tools.description
+      t: Herramientas utilizadas para manejar monorepos.
+      
     - key: sections.tools_others.title
       t: Otras herramientas
     - key: sections.tools_others.description
       t: Otras herramientas de JavaScript.
+      
+    - key: sections.other_tools.title
+      t: Otras herramientas
+    - key: sections.other_tools.description
+      t: Para estas herramientas y tecnologías, marka las que uses regularmente.
 
+    ###########################################################################
+    # Options
+    ###########################################################################
+
+    # JS pain points
+    # - key: options.js_pain_points.browser_interoperability
+    #   t: Browser Compatibility
+    # - key: options.js_pain_points.browser_interoperability.description
+    #   t: Differences between Chrome, Safari, Firefox, etc.
+    # - key: options.js_pain_points.animations
+    #   t: Animations
+    # - key: options.js_pain_points.animations.description
+    #   t: Managing animations, transitions, etc. using JavaScript.
+    # - key: options.js_pain_points.form_handling
+    #   t: Form Handling
+    # - key: options.js_pain_points.form_handling.description
+    #   t: Creating forms, managing their state and errors, and saving their data. 
+    - key: options.js_pain_points.state_management
+      t: Manejo de Estado
+    - key: options.js_pain_points.state_management.description
+      t: Manejando el estado global de datos en aplicaciones complejas. 
+    # - key: options.js_pain_points.performance_issues
+    #   t: Performance Issues
+    # - key: options.js_pain_points.performance_issues.description
+    #   t: Bundle sizes, slow loading, and other performance issues. 
+    - key: options.js_pain_points.managing_dependencies
+      t: Manejando Dependencias
+    - key: options.js_pain_points.managing_dependencies.description
+      t: Manejando Dependencias, versiones de paquetes y tamaños de librerías
+    - key: options.js_pain_points.architecture
+      t: Arquitectura de Código
+    - key: options.js_pain_points.architecture.description
+      t: Organizando y manteniendo tu base de código.
+    - key: options.js_pain_points.finding_packages
+      t: Encontrando Paquetes
+    - key: options.js_pain_points.finding_packages.description
+      t: Encontrando y evaluando paquetes de JavaScript.
+    - key: options.js_pain_points.writing_modules
+      t: Escribiendo Módulos
+    - key: options.js_pain_points.writing_modules.description
+      t: Escribiendo y publicando módulos para JavaScript. 
+    - key: options.js_pain_points.debugging
+      t: Depurando
+    - key: options.js_pain_points.debugging.description
+      t: Identificando y resolviendo problemas en tu código. 
+    - key: options.js_pain_points.async_code
+      t: Código Asíncrono
+    - key: options.js_pain_points.async_code.description
+      t: Manejando funciones asíncronas. 
+    - key: options.js_pain_points.modules_management
+      t: Manejo de Módulos
+    - key: options.js_pain_points.modules_management.description
+      t: Escribiendo e importando módulos. 
+    - key: options.js_pain_points.date_management
+      t: Manejo de Fechas
+    - key: options.js_pain_points.date_management.description
+      t: Manejando y manipulando tiempo y fechas. 
+    # - key: options.js_pain_points.xxx
+    #   t: 
+    # - key: options.js_pain_points.xxx.description
+    #   t: 
+
+
+    # JS missing features
+    - key: options.currently_missing_from_js.static_typing
+      t: Tipado Estático
+    - key: options.currently_missing_from_js.static_typing.description
+      t: Tipos nativos (Parecido a lo que ofrece TypeScript).
+    - key: options.currently_missing_from_js.standard_library
+      t: Librería Estándar
+    - key: options.currently_missing_from_js.standard_library.description
+      t: Una librería estándar de utilidades comunes
+    - key: options.currently_missing_from_js.pattern_matching
+      t: Identificación de Patrones
+    - key: options.currently_missing_from_js.pattern_matching.description
+      t: Una nueva palabra clave `match` para objetos para identificación de patrones. 
+    - key: options.currently_missing_from_js.pipe_operator
+      t: Operador Pipe
+    - key: options.currently_missing_from_js.pipe_operator.description
+      t: Un nuevo operador `|>` para pasar resultados entre funciones.
+    - key: options.currently_missing_from_js.decorators
+      t: Decoradores
+    - key: options.currently_missing_from_js.decorators.description
+      t: Decoradores para añadir funcionalidad a un elemento.
+    - key: options.currently_missing_from_js.immutable_data_structures
+      t: Estructuras de Datos Immutables
+    - key: options.currently_missing_from_js.immutable_data_structures.description
+      t: Nuevas estructuras immutables como `Record` y `Tuple`.
+    - key: options.currently_missing_from_js.better_date_management
+      t: Mejor Manejo de Fechas
+    - key: options.currently_missing_from_js.better_date_management.description
+      t: Un nuevo objeto `Temporal` para trabajar con tiempos y fechas.
+    - key: options.currently_missing_from_js.observable
+      t: Observable
+    - key: options.currently_missing_from_js.observable.description
+      t: Un nuevo tipo `Observable` para modelar fuentes de datos push.
+    # - key: options.currently_missing_from_js.xxx
+    #   t: 
+    # - key: options.currently_missing_from_js.xxx.description
+    #   t: 
+    
 
     ###########################################################################
     # Features
@@ -194,6 +305,22 @@ translations:
     - key: features.reactive_programming
       t: Programación Reactiva
 
+    # upcoming features
+    # - key: features.static_typing
+    #   t: Static Typing
+
+    # - key: features.standard_library
+    #   t: Standard Library
+    
+    # - key: features.pattern_matching
+    #   t: Pattern Matching
+
+    # - key: features.pipe_operator
+    #   t: Pipe Operator
+
+    # - key: features.immutable_data_structures
+    #   t: Immutable Data Structures
+
     ###########################################################################
     # Tools
     ###########################################################################
@@ -224,6 +351,11 @@ translations:
       t: Otros Registros de Paquetes
     - key: tools_others.package_registries.others.description
       t: Otras respuestas (campos de texto libre).
+
+    - key: tools_others.form_factors
+      aliasFor: environments.form_factors
+    - key: tools_others.form_factors.description
+      aliasFor: environments.form_factors.description
 
     ###########################################################################
     # Opinions
@@ -257,3 +389,29 @@ translations:
 
     - key: happiness.state_of_js
       t: ¿Cómo de satisfecho estás con el estado general de JavaScript?
+
+    # Pain Points
+    - key: opinions.js_pain_points
+      t: Puntos Dolorosos de JavaScript
+    - key: opinions.js_pain_points.description
+      t: Para cada emparejamiento, elige un aspecto de JavaScript con el que te hayas te nido que pegar demasiado.
+
+    - key: opinions_others.js_pain_points.others
+      t: Otros Puntos Dolorosos de JavaScript
+
+    # Missing Features
+    - key: opinions.currently_missing_from_js
+      t: ¿Qué te parece que le falta a JavaScript actualmente?
+    - key: opinions.currently_missing_from_js.description
+      t: Por cada emparejamiento, elige la característica de JavaScript que más te gustaría poder usar hoy.
+    - key: opinions_others.currently_missing_from_js.others
+      t: Otras Características que Faltan
+
+    ###########################################################################
+    # Resources
+    ###########################################################################
+    
+    - key: resources.first_steps
+      t: Primeros Pasos con JavaScript
+    - key: resources.first_steps.description
+      t: ¿Cómo has empezado a aprender JavaScript?
