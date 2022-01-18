@@ -33,31 +33,31 @@ translations:
       t: >
           <a href="{link}">Volver</a> a la página principal para continuar con la encuesta o empezarla.
     - key: general.take_survey
-      t: Haz la encuesta {name}
+      t: Completar la encuesta {name}
 
     # surveys
     - key: general.open_surveys
-      t: Encuestas Abiertas
+      t: Encuestas abiertas
     - key: general.no_open_surveys
       t: No hay encuestas abiertas actualmente.
     - key: general.closed_surveys
-      t: Encuestas Cerradas
+      t: Encuestas cerradas
     - key: general.no_closed_surveys
       t: Actualmente no hay encuestas cerradas.
     - key: general.preview_surveys
-      t: Previsualizar Encuestas
+      t: Previsualizar encuestas
     - key: general.no_preview_surveys
       t: No hay encuestas disponibles para ver.
     - key: general.start_survey
-      t: Empezar Encuesta »
+      t: Empezar encuesta
     - key: general.continue_survey
-      t: Continuar Encuesta »
+      t: Continuar encuesta
     - key: general.review_survey
-      t: Repasar Encuesta »
+      t: Repasar encuesta
     - key: general.preview_survey
-      t: Vista Previa de la Encuesta
+      t: Vista previa de la encuesta
     - key: general.finish_survey
-      t: Terminar Encuesta
+      t: Terminar encuesta
     - key: general.next_section
       t: Siguiente sección
     - key: general.prev_section
@@ -65,7 +65,7 @@ translations:
     - key: general.survey_closed
       t: Esta encuesta está cerrada.
     - key: general.survey_results
-      t: Ver Resultados de la Encuesta
+      t: Ver los resultados de la encuesta
     - key: general.surveys_available_languages
       t: "Encuestas disponibles en:"
     - key: general.help_us_translate
@@ -73,7 +73,7 @@ translations:
     - key: general.translators
       t: Traductores
     - key: general.translation_help
-      t: Ayuda con las Traducciones
+      t: Ayuda con las traducciones
     - key: general.newly_added
       t: Cosas nuevas agregadas este año
     - key: general.new
@@ -89,15 +89,15 @@ translations:
     - key: credits.logo_design
       t: Diseño del logo
     - key: credits.mobile_testing
-      t: Testeo para Móviles
+      t: Testeo para móviles
     - key: credits.data_visualizations
-      t: Visualización de Datos
+      t: Visualización de datos
     - key: credits.repo_architecture
-      t: Arquitectura del Repositorio
+      t: Arquitectura del repositorio
     - key: credits.code_refactoring
-      t: Refactor de Código
+      t: Refactorización de código
     - key: credits.data_processing
-      t: Procesado de Datos
+      t: Procesamiento de datos
 
     # support
     - key: general.support_from
@@ -105,7 +105,7 @@ translations:
 
     # footer
     - key: general.privacy_policy
-      t: Política de Privacidad
+      t: Política de privacidad
     - key: general.leave_issue
       t: ¿Preguntas? ¿Has encontrado un fallo? <a href="{link}" target="_blank">Contacta con nosotros</a>.
     - key: general.emoji_icons
@@ -113,7 +113,7 @@ translations:
 
     # navigation
     - key: general.table_of_contents
-      t: Tabla de Contenidos
+      t: Tabla de contenidos
     - key: general.all_questions_optional
       t: >
         Nota: todas las preguntas son opcionales, así que no necesitas responderlas todas.
@@ -142,7 +142,7 @@ translations:
     - key: thanks.learn_more_about
       t: 'Algunas de las características de las que quieres aprender más:'
     - key: thanks.knowledge_score
-      t: Valoración de tu Conocimiento
+      t: Valoración de tu conocimiento
     - key: thanks.score_explanation
       t: >
           Te suenan o has utilizado <span class="score-number score-number-known">{known}</span> características de 
@@ -170,13 +170,13 @@ translations:
 
     # partners
     - key: partners.our_partners
-      t: Nuestros Socios
+      t: Nuestros socios
     - key: partners.become_partner
       t: Convertirse en un socio
 
     # 404
     - key: notfound.title
-      t: 404 No Encontrado
+      t: 404 no encontrado
     - key: notfound.description
       t: Lo sentimos pero no hemos podido encontrar lo que estabas buscando.
 
@@ -202,7 +202,7 @@ translations:
     ###########################################################################
 
     - key: sections.user_info.title
-      t: Sobre Tí
+      t: Sobre tí
     - key: sections.user_info.description
       t: Déjanos conocer a tu verdadero yo.
 
@@ -222,12 +222,12 @@ translations:
       t: ¿Qué opinas sobre el estado de {topic}?
 
     - key: sections.other_tools.title
-      t: Otras Herramientas
+      t: Otras herramientas
     - key: sections.other_tools.description
       t: De estas herramientas y tecnologías, selecciona las que uses habitualmente.
 
     - key: sections.report.title
-      t: Informe de Tendencia
+      t: Informe de tendencia
 
     ###########################################################################
     # Options
@@ -307,39 +307,39 @@ translations:
 
     # happiness
     - key: options.happiness.0
-      t: Muy Descontento
+      t: Muy descontento
     - key: options.happiness.1
       t: Descontento
     - key: options.happiness.2
       t: Neutro
     - key: options.happiness.3
-      t: Contento
+      t: Satisfecho
     - key: options.happiness.4
-      t: Muy Contento
+      t: Muy satisfecho
 
     # happiness (short version)
     - key: options.happiness.0.short
-      t: Muy Descontento
+      t: Muy descontento
     - key: options.happiness.1.short
       t: Descontento
     - key: options.happiness.2.short
       t: Neutro
     - key: options.happiness.3.short
-      t: Contento
+      t: Satisfecho
     - key: options.happiness.4.short
-      t: Muy Contento
+      t: Muy Ssatisfecho
 
     # opinions
     - key: options.opinions.0
-      t: Estoy Fuertemente en Desacuerdo
+      t: Estoy fuertemente en desacuerdo
     - key: options.opinions.1
-      t: Estoy en Desacuerdo
+      t: Estoy en desacuerdo
     - key: options.opinions.2
       t: Neutro
     - key: options.opinions.3
-      t: Estoy de Acuerdo
+      t: Estoy de acuerdo
     - key: options.opinions.4
-      t: Estoy Fuertemente de Acuerdo
+      t: Estoy fuertemente de acuerdo
 
     # age
     - key: options.age.range_less_than_10
@@ -379,7 +379,7 @@ translations:
 
     # years of experience
     - key: options.years_of_experience.range_less_than_1
-      t: Menos de un Año
+      t: Menos de un año
     - key: options.years_of_experience.range_1_2
       t: De 1 a 2 años
     - key: options.years_of_experience.range_2_5
@@ -459,7 +459,7 @@ translations:
 
     # salary (short versions)
     - key: options.yearly_salary.range_work_for_free.short
-      t: 0
+      t: '0'
     - key: options.yearly_salary.range_0_10.short
       t: 0~10k
     - key: options.yearly_salary.range_10_30.short
@@ -548,13 +548,13 @@ translations:
     - key: options.gender.male
       t: Hombre
     - key: options.gender.non_binary
-      t: No-Binario/Tercer Género
+      t: No-binario/Tercer Género
     - key: options.gender.questioning
-      t: Aún me lo estoy preguntando
+      t: Aún no me he decidido
     - key: options.gender.prefer_not_to_say
       t: Prefiero no decirlo
     - key: options.gender.not_listed
-      t: Not Listed
+      t: Otros
 
     # Gender (short)
 
@@ -563,38 +563,38 @@ translations:
     - key: options.gender.male.short
       t: Hombre
     - key: options.gender.non_binary.short
-      t: No Binario o GNC
+      t: No-binario o GNC
     - key: options.gender.questioning.short
-      t: Aún me lo estoy preguntando
+      t: Aún no me he decidido
     - key: options.gender.prefer_not_to_say.short
       t: Prefiero no decirlo
     - key: options.gender.not_listed.short
-      t: No está en la lista
+      t: Otros
 
     # Race & Ethnicity
 
     - key: options.race_ethnicity.white_european
-      t: Blanco o descendiente de Europeos
+      t: Blanco o descendiente de europeos
     - key: options.race_ethnicity.south_asian
-      t: Del Sur de Asia
+      t: Del sur de Asia
     - key: options.race_ethnicity.south_east_asian
-      t: Del Sureste Asiático
+      t: Del sureste asiático
     - key: options.race_ethnicity.hispanic_latin
-      t: Hispano o Latino
+      t: Hispano o latino
     - key: options.race_ethnicity.east_asian
-      t: Asiático del Este
+      t: Asiático del este
     - key: options.race_ethnicity.middle_eastern
       t: De Oriente Medio
     - key: options.race_ethnicity.black_african
-      t: Negro o descendiente de Africanos
+      t: Negro o descendiente de africanos
     - key: options.race_ethnicity.multiracial
       t: Multirracial
     - key: options.race_ethnicity.biracial
       t: Birracial
     - key: options.race_ethnicity.native_american_islander_australian
-      t: Nativo Americano, de las Islas del Pacífico o Indígena Australiano
+      t: Nativo americano, de las islas del Pacífico o indígena australiano
     - key: options.race_ethnicity.not_listed
-      t: Not listed
+      t: Otros
 
     # Race & Ethnicity (short)
 
@@ -603,23 +603,23 @@ translations:
     - key: options.race_ethnicity.south_asian.short
       t: Sur de Asia
     - key: options.race_ethnicity.south_east_asian.short
-      t: SE Asiático
+      t: SE asiático
     - key: options.race_ethnicity.hispanic_latin.short
-      t: Hispano/Latino
+      t: Hispano/latino
     - key: options.race_ethnicity.east_asian.short
-      t: Este Asiático
+      t: Este asiático
     - key: options.race_ethnicity.middle_eastern.short
       t: Oriente Medio
     - key: options.race_ethnicity.black_african.short
-      t: Negro/Descendiente Africano
+      t: Negro/descendiente africano
     - key: options.race_ethnicity.multiracial.short
       t: Multirracial
     - key: options.race_ethnicity.biracial.short
       t: Birracial
     - key: options.race_ethnicity.native_american_islander_australian.short
-      t: Nativo Americano/Islas del Pacífico/Indígena Australiano
+      t: Nativo americano/islas del Pacífico/indígena australiano
     - key: options.race_ethnicity.not_listed.short
-      t: No aparece en la lista
+      t: Otros
 
     # Disability Status
     - key: options.disability_status.visual_impairments
@@ -636,7 +636,7 @@ translations:
         Deterioro cognitivo (como: ansiedad, dislexia, etc.)
     - key: options.disability_status.not_listed
       t: >
-        No aparece en la lista
+        Otros
 
     # Disability Status (short)
     - key: options.disability_status.visual_impairments
@@ -653,7 +653,7 @@ translations:
         Dificultades cognitivas
     - key: options.disability_status.not_listed
       t: >
-        No aparece en la lista
+        Otros
 
     # Form Factors
     - key: options.form_factors.desktop
@@ -677,25 +677,25 @@ translations:
     - key: options.form_factors.print
       t: Para imprimir
     - key: options.form_factors.testing_tools
-      t: Herramientas para Pruebas (Axe, Lighthouse, etc.)
+      t: Herramientas para prueba (Axe, Lighthouse, etc.)
     - key: options.form_factors.vision_simulator
-      t: Simuladores para Visión Alterada (ceguera al color, etc.)
+      t: Simuladores para visión alterada (ceguera al color, etc.)
 
     # Industry Sector
     - key: options.industry_sector.ecommerce
-      t: Comercio electrónico y Venta Minorista
+      t: Comercio electrónico y venta minorista
     - key: options.industry_sector.news_media
-      t: Noticias, Medios y Blogs
+      t: Noticias, medios y blogs
     - key: options.industry_sector.healthcare
-      t: Cuidado de la Salud
+      t: Cuidado de la salud
     - key: options.industry_sector.finance
       t: Finanzas
     - key: options.industry_sector.programming_tools
-      t: Programación y Herramientas Técnicas
+      t: Programación y herramientas técnicas
     - key: options.industry_sector.socialmedia
-      t: Redes Sociales
+      t: Redes sociales
     - key: options.industry_sector.marketing_tools
-      t: Herramientas de Marketing/Ventas/Análisis
+      t: Herramientas de marketing/ventas/análisis
     - key: options.industry_sector.education
       t: Educación
     - key: options.industry_sector.real_estate
@@ -705,7 +705,7 @@ translations:
     - key: options.industry_sector.entertainment
       t: Entretenimiento
     - key: options.industry_sector.consulting
-      t: Servicios de Consultoría
+      t: Servicios de consultoría
     - key: options.industry_sector.travel
       t: Viajes
     - key: options.industry_sector.insurance
@@ -737,13 +737,13 @@ translations:
     - key: options.tool_evaluation.learning_curve_documentation
       t: Documentación
     - key: options.tool_evaluation.learning_curve_documentation.description
-      t: ¿Es fácil de aprender y / o está bien documentada?
+      t: ¿Es fácil de aprender y/o está bien documentada?
     - key: options.tool_evaluation.momentum_popularity
       t: Exageración e impulso
     - key: options.tool_evaluation.momentum_popularity.description
       t: ¿Está generando mucho alboroto actualmente?
     - key: options.tool_evaluation.user_base_size
-      t: Tamaño Base de Usuario
+      t: Tamaño base de usuario
     - key: options.tool_evaluation.user_base_size.description
       t: ¿Es una opción bien establecida con una larga trayectoria?
     - key: options.tool_evaluation.developer_experience_tooling
@@ -829,11 +829,11 @@ translations:
 
     # bracket
     - key: options.bracket.round1
-      t: Gana el round 1
+      t: Gana la ronda 1
     - key: options.bracket.round2
-      t: Gana el round 2
+      t: Gana la ronda 2
     - key: options.bracket.round3
-      t: Gana el round 3
+      t: Gana la ronda 3
     - key: options.bracket.combined
       t: Combinado
 
@@ -842,11 +842,11 @@ translations:
     ###########################################################################
 
     - key: tools.other_tools
-      t: Otras Opciones
+      t: Otras opciones
     - key: tools.other_tools.description
       t: Otras opciones que uses en esta sección y que no hayamos mencionado
     - key: tools.happiness
-      t: Satisfacción General
+      t: Satisfacción general
     - key: tools.happiness.description
       t: >
           En una escala de uno (muy insatisfecho) a cinco (muy satisfecho), ¿cómo de satisfecho estás
@@ -864,25 +864,25 @@ translations:
 
     # years of experience
     - key: user_info.years_of_experience
-      t: Años de Experiencia
+      t: Años de experiencia
     - key: user_info.years_of_experience.description
       t: ¿Cuánto tiempo llevas trabajando o estudiando en este campo?
 
     # company size
     - key: user_info.company_size
-      t: Tamaño de tu Empresa
+      t: Tamaño de la compañía
     - key: user_info.company_size.description
-      t: ¿Cómo es tu empresa de grande?
+      t: ¿Cómo es tu compañía de grande?
 
     # salary ranges
     - key: user_info.yearly_salary
-      t: Sueldo Anual
+      t: Sueldo anual
     - key: user_info.yearly_salary.description
       t: En USD.
 
     # job title
     - key: user_info.job_title
-      t: Título Laboral
+      t: Título laboral
     - key: user_info.job_title.description
       t: ¿Cómo te presentas a ti mismo en las fiestas?
 
@@ -900,7 +900,7 @@ translations:
 
     # backend proficiency
     - key: user_info.backend_proficiency
-      t: Competencia en el Backend
+      t: Competencia en el backend
     - key: user_info.backend_proficiency.description
       t: ¿Cómo de competente eres en el backend?
 
@@ -918,7 +918,7 @@ translations:
         
     # race & ethnicity
     - key: user_info.race_ethnicity
-      t: Race & Etnia
+      t: Raza y etnia
     - key: user_info.race_ethnicity.description
       t: >
         ¿Cuáles de las siguientes opciones te describen? Por favor, marca todas las que apliquen.
@@ -938,15 +938,15 @@ translations:
 
     # disability status (other)
     - key: user_info.disability_status.others
-      t: Otras Discapacidades
+      t: Otras discapacidades
 
     # other info
     - key: user_info.how_did_user_find_out_about_the_survey
       t: ¿Cómo has conocido esta encuesta?
     - key: user_info.email
-      t: Tu Correo Electrónico
+      t: Tu correo electrónico
     - key: user_info.country
-      t: Tu País o Región
+      t: Tu país o región
     - key: user_info.country.description
       t: ¿Dónde vives actualmente?
 
@@ -958,27 +958,28 @@ translations:
         futuro para ver repositorios y referencias cruzadas 
         de información disponible públicamente.
     - key: user_info.twitter_username
-      t: Tu Usuario de Twitter
+      t: Tu usuario de Twitter
     - key: user_info.twitter_username.description
       t: >
-        Puede que usemos tu usuario de Twitter en el futuro para buscar
-        actividad en Twitter para cruzarla con información pública disponible
-         (como por ejemplo la lista de gente que está siguiendo).
+        Puede que usemos los nombres de usuarios de Twitter para mirar
+        la actividad en Twitter en el futuro y relacionarla con la
+        información pública disponible (por ejemplo, la lista de personas
+        que estás siguiendo).
 
     - key: user_info.industry_sector
-      t: Sector de Industria
+      t: Sector industrial
     - key: user_info.industry_sector.description
-      t: ¿En qué sector (es) de la industria trabaja?
+      t: ¿En qué sector(es) industriales trabaja?
     - key: user_info.industry_sector.others
-      t: Otros sectores de la Industria
+      t: Otros sectores industriales
     - key: user_info.industry_sector.others.description
-      t: Otros sectores de la industria en los que trabaja no mencionados anteriormente.
+      t: Otros sectores industriales en los que trabaja no mencionados anteriormente.
 
     # degree
     - key: user_info.higher_education_degree
-      t: Grado de Educación Superior
+      t: Grado de educación superior
     - key: user_info.higher_education_degree.description
-      t: ¿Tienes un grado de Educación Superior?
+      t: ¿Tienes un grado de educación superior?
 
     ###########################################################################
     # Other Tools
@@ -989,16 +990,16 @@ translations:
     - key: tools_others.libraries.description
       t: ¿Cuáles librarías usas regularmente?
     - key: tools_others.libraries.others
-      t: Otras Librarías
+      t: Otras librarías
     - key: tools_others.libraries.others.description
-      t: Otras Respuestas (campo de forma libre).
+      t: Otras respuestas (campo de forma libre).
 
     - key: tools_others.text_editors
-      t: Editores de Texto
+      t: Editores de texto
     - key: tools_others.text_editors.description
       t: ¿Qué editor(es) de texto usas habitualmente?
     - key: tools_others.text_editors.others
-      t: Otros Editores de Texto
+      t: Otros editores de texto
     - key: tools_others.text_editors.others.description
       t: Otras respuestas (campo de texto libre).
 
@@ -1007,7 +1008,7 @@ translations:
     - key: tools_others.utilities.description
       t: ¿Qué librerías de utilidades usas habitualmente?
     - key: tools_others.utilities.others
-      t: Otras Utilidades
+      t: Otras utilidades
     - key: tools_others.utilities.others.description
       t: Otras respuestas (campo de texto libre).
 
@@ -1016,36 +1017,36 @@ translations:
     - key: tools_others.browsers.description
       t: ¿Con qué navegador(es) trabajas principalmente durante el desarrollo inicial?
     - key: tools_others.browsers.others
-      t: Otros Navegadores
+      t: Otros navegadores
     - key: tools_others.browsers.others.description
       t: Otras respuestas (campo de texto libre).
 
     - key: tools_others.build_tools
-      t: Herramientas de Construcción
+      t: Herramientas de construcción
     - key: tools_others.build_tools.description
       t: ¿Qué herramientas de construcción utilizas?
     - key: tools_others.build_tools.others
-      t: Otras Herramientas de Construcción
+      t: Otras herramientas de construcción
     - key: tools_others.build_tools.others.description
       t: Otras respuestas (campo de texto libre).
 
     - key: tools_others.non_js_languages
-      t: Otros Lenguajes (no relacionados con JavaScript)
+      t: Otros lenguajes (no relacionados con JavaScript)
     - key: tools_others.non_js_languages.description
       t: ¿Qué otros lenguajes de programación utilizas?
     - key: tools_others.non_js_languages.others
-      t: Otros Lenguajes
+      t: Otros lenguajes
     - key: tools_others.non_js_languages.others.description
-      t: Otras respuestas (campo de texto libre).
+      t: Otros (campo de texto libre).
 
     - key: tools_others.javascript_flavors
       t: Sabores de JavaScript
     - key: tools_others.javascript_flavors.description
       t: Lenguajes que compilan a JavaScript
     - key: tools_others.javascript_flavors.others
-      t: Otros Sabores de JavaScript
+      t: Otros sabores de JavaScript
     - key: tools_others.javascript_flavors.others.description
-      t: Otras respuestas (campo de texto libre).
+      t: Otros (campo de texto libre).
 
     ###########################################################################
     # Resources
@@ -1053,31 +1054,31 @@ translations:
 
     # learning method
     - key: resources.first_steps
-      t: Métodos para Empezar
+      t: Métodos para empezar
     - key: resources.first_steps.description
-      t: ¿Cómo has empezado a aprender a programar?
+      t: ¿Cómo empezaste a aprender a programar?
     - key: resources.first_steps.others
-      t: Otros Métodos para Empezar
+      t: Otros métodos de aprendizaje inicial
     - key: resources.first_steps.others.description
       t: Otras respuestas (campo de texto libre).
     
     # blogs & magazines
     - key: resources.blogs_news_magazines
-      t: Blogs y Revistas
+      t: Blogs y revistas
     - key: resources.blogs_news_magazines.description
       t: ¿Qué blogs/revistas/etc. sueles leer?
     - key: resources.blogs_news_magazines.others
-      t: Otros Blogs y Revistas
+      t: Otros blogs y revistas
     - key: resources.blogs_news_magazines.others.description
       t: Otras respuestas (campo de texto libre).
 
     # sites & courses
     - key: resources.sites_courses
-      t: Sitios Web y Cursos
+      t: Sitios web y cursos
     - key: resources.sites_courses.description
       t: ¿Qué sitios web/cursos/etc. sueles consultar?
     - key: resources.sites_courses.others
-      t: Otros Sitios Web y Cursos
+      t: Otros sitios web y cursos
     - key: resources.sites_courses.others.description
       t: Otras respuestas (campo de texto libre).
 
@@ -1087,7 +1088,7 @@ translations:
     - key: resources.podcasts.description
       t: ¿Qué podcast sobre programación sueles escuchar?
     - key: resources.podcasts.others
-      t: Otros Podcasts
+      t: Otros podcasts
     - key: resources.podcasts.others.description
       t: Otras respuestas (campo de texto libre).
 

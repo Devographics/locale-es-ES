@@ -55,7 +55,7 @@ translations:
     - key: accounts.sign_in
       t: Entrar
     - key: accounts.switch_to_sign_up
-      t: ¿No tienes una cuenta? Créala.
+      t: ¿No tienes una cuenta? Créala
     - key: accounts.switch_to_sign_in
       t: ¿Ya tienes una cuenta? Entrar
     - key: accounts.sign_out

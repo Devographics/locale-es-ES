@@ -28,11 +28,11 @@ translations:
     t: Aprender más.
 
   - key: tabs.all_respondents
-    t: Todos los que han Respondido
+    t: Todos los que han respondido
   - key: tabs.main_answers
-    t: Respuestas Principales
+    t: Respuestas principales
   - key: tabs.other_answers
-    t: Otras Respuestas
+    t: Otras respuestas
   - key: tabs.bracket_wins
     t: Victorias
   - key: tabs.bracket_matchups
@@ -46,15 +46,15 @@ translations:
   - key: tabs.debug
     t: Depurar
   - key: tabs.by_country
-    t: Por País
+    t: Por país
   - key: tabs.by_experience
-    t: Por Experiencia
+    t: Por experiencia
   - key: tabs.by_degree
-    t: Por Grado
+    t: Por grado
   - key: tabs.by_salary
-    t: Por Salario
+    t: Por salario
   - key: tabs.by_gender
-    t: Por Género
+    t: Por género
 
   ###########################################################################
   # Block
@@ -79,11 +79,11 @@ translations:
   - key: options.features_mode.grouped
     t: Agrupado
   - key: options.features_mode.awareness_rank
-    t: Por Conocimiento
+    t: Por conocimiento
   - key: options.features_mode.usage_rank
-    t: Por Uso
+    t: Por uso
   - key: options.features_mode.usage_ratio_rank
-    t: Por Ratio de Uso
+    t: Por ratio de uso
 
   - key: options.features_simplified.know_it
     t: Lo conozco
@@ -96,7 +96,7 @@ translations:
     t: EVALUAR
   - key: options.quadrant.assess.long
     t: |
-      EVALUAR: Bajo uso, alta satisfacción. Tecnologías que merecen que las eches un ojo.
+      EVALUAR: Bajo uso, alta satisfacción. Tecnologías que merecen que les eches un ojo.
   - key: options.quadrant.adopt
     t: ADOPTAR
   - key: options.quadrant.adopt.long
@@ -111,14 +111,14 @@ translations:
     t: ANALIZAR
   - key: options.quadrant.analyze.long
     t: |
-      ANALIZAR: Muy utilizadas, baja satisfacción. Piénsatelo bien, si son tecnologías que estés usando en estos momentos.
+      ANALIZAR: Muy utilizadas, baja satisfacción. Piénsalo bien, si estás utilizando estás tecnologías actualmente.
 
   - key: ranges.selector.years_of_experience
     t: Experiencia
   - key: ranges.selector.yearly_salary
     t: Sueldo
   - key: ranges.selector.company_size
-    t: Tamaño de la Compañía
+    t: Tamaño de la compañía
 
   # other learning methods
   - key: options.first_steps.blogs
@@ -126,7 +126,7 @@ translations:
   - key: options.first_steps.forums
     t: Forums
   - key: options.first_steps.view_source
-    t: Viendo Código
+    t: Viendo código
   
   # other disablities
   - key: options.disability_status_others.adhd
@@ -136,9 +136,9 @@ translations:
   - key: options.disability_status_others.glasses
     t: Gafas
   - key: options.disability_status_others.old
-    t: Edad Avanzada
+    t: Edad avanzada
   - key: options.disability_status_others.back_pain
-    t: Dolor de Espalda
+    t: Dolor de espalda
   - key: options.disability_status_others.epilepsy
     t: Epilepsia
   - key: options.disability_status_others.aspergers
@@ -201,39 +201,39 @@ translations:
     t: Esta información es una mezcla de las respuestas notificadas, información referida y datos de seguimiento de URLs.
 
   - key: user_info.gender_by_country
-    t: Género por País
+    t: Género por país
   - key: user_info.gender_by_country.description
     t: Distribución de géneros por país con al menos 100 encuestados, ordenado por "género medio" (cada género como un valor entero en orden ascendente) descendente.
 
   - key: user_info.years_of_experience_by_salary
-    t: Años de Experiencia por Rango Salarial
+    t: Años de experiencia por rango salarial
   - key: user_info.years_of_experience_by_salary.description
     t: Años de experiencia por rango salarial.
 
   - key: user_info.yearly_salary_by_country
-    t: Salario por País
+    t: Salario por país
   - key: user_info.yearly_salary_by_country.description
     t: Distribución salarial anual por país con al menos 100 encuestados, ordenado de forma descendente por salario medio.
 
   - key: user_info.yearly_salary_by_degree
-    t: Salario por Educación de Grado Superior
+    t: Salario por educación de grado superior
   - key: user_info.yearly_salary_by_degree.description
     t: Distribución anual de salario por educación de grado superior, ordenado de forma descendente por salario medio.
 
   - key: user_info.yearly_salary_by_experience
-    t: Slario en función de la Experiencia
+    t: Salario en función de la experiencia
   - key: user_info.yearly_salary_by_experience.description
     t: Distribución anual de salario en función de la experiencia, ordenado de forma descendente por salario medio.
 
   - key: user_info.race_ethnicity_by_years_of_experience
-    t: Raza y Etnia por Años de Experiencia
+    t: Raza y etnia por años de experiencia
   - key: user_info.race_ethnicity_by_years_of_experience.description
     t: Distribución de raza y etnia por años de experiencia, ordenado de forma ascendente por experiencia media.
 
   - key: user_info.higher_education_degree_by_gender
-    t: Educación Superior por Género
+    t: Educación superior por género
   - key: user_info.higher_education_degree_by_gender.description
-    t: Educación Superior distribuida por género.
+    t: Educación superior distribuida por género.
 
   ###########################################################################
   # Locales
@@ -289,7 +289,7 @@ translations:
   ###########################################################################
 
   - key: features.learn_more
-    t: Más Información (MDN)
+    t: Más información (MDN)
   - key: features.mdn_link
     t: MDN
   - key: features.caniuse_link
@@ -313,9 +313,9 @@ translations:
   - key: tools.github_link
     t: GitHub
   - key: tools.github_stars
-    t: estrellas
+    t: Estrellas
   - key: tools.homepage_link
-    t: Página de Inicio
+    t: Página de inicio
   - key: tools.npm_link
     t: NPM
   - key: tools.technology
@@ -327,21 +327,21 @@ translations:
 
   # heatmaps
   - key: blocks.tools_company_size_heatmap
-    t: Uso en Función del Tamaño de la Compañía
+    t: Uso en función del tamaño de la compañía
   - key: blocks.tools_company_size_heatmap.description
     t: |
       Para cada tecnología, como está extendido el uso entre los encuestados
       atendiendo a diferentes tamaños de compañías.
 
   - key: blocks.tools_yearly_salary_heatmap
-    t: Uso en Función del Rango Salarial
+    t: Uso en función del rango salarial
   - key: blocks.tools_yearly_salary_heatmap.description
     t: |
       Para cada tecnología, como está extendido el uso entre los encuestados
       atendiendo a diferentes rangos salariales.
 
   - key: blocks.tools_years_of_experience_heatmap
-    t: Uso en Función de los Años de Experiencia
+    t: Uso en función de los años de experiencia
   - key: blocks.tools_years_of_experience_heatmap.description
     t: |
       Para cada tecnología, como está extendido el uso entre los encuestados atendiendo a diferentes niveles de experiencia.
@@ -349,13 +349,13 @@ translations:
 
   # tool
   - key: blocks.entity.homepage_link
-    t: Página Principal
+    t: Página principal
   - key: blocks.entity.github_link
     t: GitHub
 
   # cardinality
   - key: blocks.all_sections_tools_cardinality_by_user
-    t: Cardinalidad de Uso de Tecnología
+    t: Cardinalidad de uso de tecnología
   - key: blocks.all_sections_tools_cardinality_by_user.description
     t: >
         Para cada sección, qué porcentaje de encuestados usa
@@ -367,7 +367,7 @@ translations:
 
   # tools arrows
   - key: blocks.tools_arrows
-    t: Cambios a lo Largo del Tiempo
+    t: Cambios a lo largo del tiempo
   - key: blocks.tools_arrows.description
     t: |
       Cada línea va de 2016 a 2020. Un punto más alto significa que una tecnología ha sido utilizada por más personas,
@@ -381,35 +381,35 @@ translations:
 
   # tools quadrant
   - key: blocks.tools_quadrant
-    t: Satisfacción contra Uso
+    t: Satisfacción contra uso
   - key: blocks.tools_quadrant.description
     t: |
       Este gráfico muestra el **ratio de satisfacción** frente al **número total de usuarios** de cada tecnología.
       Se puede dividir en cuatro cuadrantes:
 
-        - **EVALUAR**: Bajo uso, alta satisfacción. Tecnologías que merecen que las eches un ojo.
+        - **EVALUAR**: Bajo uso, alta satisfacción. Tecnologías que merecen que les eches un ojo.
 
         - **ADOPTAR**: Muy utilizadas, alta satisfacción. Tecnologías seguras para adoptar.
 
         - **EVITAR**: Bajo uso, baja satisfacción. Tecnologías que probablemente debería evitar a día de hoy.
 
-        - **ANALIZAR**: Muy utilizadas, baja satisfacción. Piénsatelo bien, si son tecnologías que estés usando en estos momentos.
+        - **ANALIZAR**: Muy utilizadas, baja satisfacción. Piénsalo bien, si estás utilizando estás tecnologías actualmente.
 
   # category other tools
   - key: blocks.category_other_tools
-    t: Otras Herramientas
+    t: Otras herramientas
   - key: blocks.category_other_tools.description
     t: Otras herramientas en esta categoría (respuestas libres).
 
   # tool experience
   - key: blocks.tool_experience
-    t: '{name} Experiencia en el Tiempo'
+    t: '{name} experiencia en el tiempo'
   - key: blocks.tool_experience.description
     t: Experiencia con {name}.
 
   # tool positive/negative split ("marimekko" chart)
   - key: blocks.tools_experience_marimekko
-    t: División Positiva/Negativa
+    t: División positiva/Negativa
   - key: blocks.tools_experience_marimekko.description
     t: |
       Este gráfico se divide en experiencias positivas ("quiero aprender", "volvería a usar") vs.
@@ -420,7 +420,7 @@ translations:
 
   # tools section streams
   - key: blocks.tools_section_streams
-    t: Experiencia en el Tiempo
+    t: Experiencia en el tiempo
   - key: blocks.tools_section_streams.description
     t: |
       Opiniones sobre la tecnologías encuestadas, en el tiempo.
@@ -430,7 +430,7 @@ translations:
 
   # tools section overview
   - key: blocks.tools_section_overview
-    t: Vista General de la Categoría
+    t: Vista general de la categoría
   - key: blocks.tools_section_overview.description
     t: |
       Opiniones sobre la tecnología encuestada. Los segmentos más oscuros representan opiniones positivas,
@@ -452,21 +452,21 @@ translations:
 
   # happiness
   - key: blocks.happiness
-    t: Satisfacción General
+    t: Satisfacción general
   - key: blocks.happiness.description
     t: |
-      En una escala del uno (muy descontento) al cinco (muy feliz), ¿cómo de contentos están los desarrolladores
+      En una escala del uno (muy descontento) al cinco (muy satisfecho), ¿cómo de satisfechos están los desarrolladores
       con el estado general de esta categoría?
 
   # newsletter
   - key: blocks.newsletter.title
-    t: Estate Conectado
+    t: Permanece conectado
   - key: blocks.newsletter.description
     t: |
       Si quieres saber cuando sacaremos resultados adicionales o cuando anunciaremos la edición del año que viene,
       sólo déjanos tu correo electrónico aquí abajo:
   - key: blocks.newsletter.email
-    t: Tu Correo Electrónico
+    t: Tu correo electrónico
   - key: blocks.newsletter.submit
     t: Avisadme
 
@@ -497,22 +497,22 @@ translations:
   - key: export.export_json
     t: Obtener un JSON
   - key: export.export_graphql
-    t: Obtener la Consulta de GraphQL
+    t: Obtener la consulta de GraphQL
 
   - key: custom_data.heading
-    t: Gráfico Personalizado
+    t: Gráfico personalizado
   - key: custom_data.custom_data
-    t: Datos Personalizados
+    t: Datos personalizados
   - key: custom_data.graphql_query
     t: Consulta de GraphQL
   - key: custom_data.chart_title
-    t: Gráfico Personalizado
+    t: Gráfico personalizado
   - key: custom_data.submit
     t: Enviar
   - key: custom_data.edit_title
-    t: Editar Título del Gráfico
+    t: Editar título del gráfico
   - key: custom_data.customize
-    t: Datos Personalizados
+    t: Datos personalizados
   - key: custom_data.details
     t: >
 
@@ -526,11 +526,11 @@ translations:
 
   # Tools usage variations
   - key: blocks.tools_usage_variations
-    t: Variaciones de Uso
+    t: Variaciones de uso
   - key: blocks.tools_usage_variations.description
     t: |
       Cómo diferentes factores como el rango salarial, los años de experiencia
-      o el tamaño de la empresa influye en el uso (participantes que respondieron
+      o el tamaño de la compañía influye en el uso (participantes que respondieron
       "usaría de nuevo" o "no usaría de nuevo").
 
       La línea base representa el uso base de cada herramienta y las compensaciones
@@ -545,38 +545,38 @@ translations:
 
   # Recommended Resources
   - key: blocks.recommended_resources
-    t: Recursos Recomendados
+    t: Recursos recomendados
 
   # Brackets
   - key: tool_evaluation.tool_evaluation_wins
-    t: Rankings de Evaluación de Librerías
+    t: Rankings de evaluación de librerías
   - key: tool_evaluation.tool_evaluation_wins.description
-    t: ¿Qué factores priorizas en la evaluación de una nueva librería? Los resultados están ordenados por el número de rounds ganados.
+    t: ¿Qué factores priorizas en la evaluación de una nueva librería? Los resultados están ordenados por el número de rondas ganadas.
 
   - key: tool_evaluation.tool_evaluation_matchups
-    t: Rankings de Evaluación de Librerías (Emparejamientos)
+    t: Rankings de evaluación de librerías (emparejamientos)
   - key: tool_evaluation.tool_evaluation_matchups.description
-    t: ¿Qué factores priorizas en la evaluación de una nueva librería? Porcentaje de rounds ganados por el ítem de la izquierda frente al item de arriba.
+    t: ¿Qué factores priorizas en la evaluación de una nueva librería? Porcentaje de rondas ganadas por el ítem de la izquierda frente al item de arriba.
 
   - key: css_pain_points.css_pain_points_wins
-    t: Puntos Dolorosos de CSS
+    t: Puntos dolorosos de CSS
   - key: css_pain_points.css_pain_points_wins.description
-    t: ¿Qué aspectos de CSS te resultan más complicados? Los resultados están ordenados por el número de rounds ganados.
+    t: ¿Qué aspectos de CSS te resultan más complicados? Los resultados están ordenados por el número de rondas ganadas.
 
   - key: css_pain_points.css_pain_points_matchups
-    t: Puntos Dolorosos de CSS (Emparejamientos)
+    t: Puntos dolorosos de CSS (Emparejamientos)
   - key: css_pain_points.css_pain_points_matchups.description
-    t: ¿Qué aspectos de CSS te resultan más complicados? Porcentaje de rounds ganados por el ítem de la izquierda frente al item de arriba.
+    t: ¿Qué aspectos de CSS te resultan más complicados? Porcentaje de rondas ganadas por el ítem de la izquierda frente al item de arriba.
 
   - key: currently_missing_from_css.currently_missing_from_css_wins
-    t: Características que Faltan en CSS
+    t: Características que faltan en CSS
   - key: currently_missing_from_css.currently_missing_from_css_wins.description
-    t: ¿Qué características de CSS te gustaría poder usar hoy? Los resultados están ordenados por el número de rounds ganados.
+    t: ¿Qué características de CSS te gustaría poder usar hoy? Los resultados están ordenados por el número de rondas ganadas.
 
   - key: currently_missing_from_css.currently_missing_from_css_matchups
-    t: Características que Faltan en CSS (Emparejamientos)
+    t: Características que faltan en CSS (Emparejamientos)
   - key: currently_missing_from_css.currently_missing_from_css_matchups.description
-    t: ¿Qué características de CSS te gustaría poder usar hoy? Porcentaje de rounds ganados por el ítem de la izquierda frente al item de arriba.
+    t: ¿Qué características de CSS te gustaría poder usar hoy? Porcentaje de rondas ganadas por el ítem de la izquierda frente al item de arriba.
 
   ###########################################################################
   # Charts
@@ -600,30 +600,30 @@ translations:
   - key: charts.overall
     t: General
   - key: charts.all_respondents
-    t: Todos los Encuestados
+    t: Todos los encuestados
   - key: charts.facet_responses
     t: '{count} respuestas'
 
   - key: charts.axis_legends.years_of_experience
-    t: Años de Experiencia
+    t: Años de experiencia
   - key: charts.axis_legends.yearly_salary
-    t: Rango Salarial (USD)
+    t: Rango salarial (USD)
   - key: charts.axis_legends.company_size
-    t: Número de Empleados
+    t: Número de empleados
   - key: charts.axis_legends.backend_proficiency
-    t: Competencia en el Backend
+    t: Competencia en el backend
   - key: charts.axis_legends.css_proficiency
     t: Competencia con CSS
   - key: charts.axis_legends.javascript_proficiency
     t: Competencia con JavaScript
   - key: charts.axis_legends.users_percentage
-    t: Porcentaje de Usuarios
+    t: Porcentaje de usuarios
   - key: charts.axis_legends.users_count
-    t: Número de Usuarios
+    t: Número de usuarios
   - key: charts.axis_legends.interest_percentage
-    t: Porcentaje de Interés
+    t: Porcentaje de interés
   - key: charts.axis_legends.satisfaction_percentage
-    t: Porcentaje de Satisfacción
+    t: Porcentaje de satisfacción
   - key: charts.axis_legends.usage_percentage
     t: Uso %
   - key: charts.axis_legends.awareness_percentage
@@ -705,7 +705,7 @@ translations:
   - key: share.share
     t: Compartir
   - key: share.options
-    t: Opciones para Compartir
+    t: Opciones para compartir
   - key: share.preview
     t: Vista previa de medio sociales
   - key: share.site.title
@@ -713,13 +713,13 @@ translations:
   - key: share.site.twitter_text
     t: 'Descubra los resultados de {siteTitle} {link} {hashtag}'
   - key: share.site.subject
-    t: Resultados de la Encuesta {siteTitle}
+    t: Resultados de la encuesta {siteTitle}
   - key: share.site.body
     t: 'Aquí hay algunos resultados interesantes de una encuesta: {link}'
   - key: share.block.twitter_text
     t: '{hashtag} {year}: {title} {link}'
   - key: share.block.subject
-    t: Resultados de la Encuesta {siteTitle}
+    t: Resultados de la encuesta {siteTitle}
   - key: share.block.body
     t: 'Aquí hay algunos resultados interesantes de una encuesta ({title}): {link}'
   - key: share.twitter
@@ -816,47 +816,47 @@ translations:
     t: Finalistas
 
   - key: award.feature_adoption_award.title
-    t: Característica más Adoptada
+    t: Característica más adoptada
   - key: award.feature_adoption_award.description
     t: Concedido a la característica más adoptada.
 
   - key: award.feature_adoption_delta_award.title
-    t: Característica más Adoptada
+    t: Característica más adoptada
   - key: award.feature_adoption_delta_award.description
     t: Concedido a la característica con la mejor progresión inter anual.
 
   - key: award.tool_usage_award.title
-    t: Tecnología más Utilizada
+    t: Tecnología más utilizada
   - key: award.tool_usage_award.description
     t: Concedido a la tecnología con mayor número de usuarios.
 
   - key: award.tool_usage_delta_award.title
-    t: Tecnología más Utilizada
+    t: Tecnología más utilizada
   - key: award.tool_usage_delta_award.description
     t: Concedido a la tecnología con la mejor progresión inter anual.
 
   - key: award.tool_satisfaction_award.title
-    t: Mayor Satisfacción
+    t: Mayor satisfacción
   - key: award.tool_satisfaction_award.description
     t: Concedido a la tecnología con el mayor porcentaje de usuarios satisfechos.
 
   - key: award.tool_interest_award.title
-    t: Mayor Interés
+    t: Mayor interés
   - key: award.tool_interest_award.description
     t: Concedido a la tecnología que los desarrolladores están más interesados en aprender.
 
   - key: award.resource_usage_award.title
-    t: Recurso Más Utilizado
+    t: Recurso más utilizado
   - key: award.resource_usage_award.description
     t: Concedido al recurso más utilizado entre los desarrolladores.
 
   - key: award.prediction_award.title
-    t: Premio a la Predicción
+    t: Premio a la redicción
   - key: award.prediction_award.description
     t: Concedido a una tecnología que viene a triunfar… ¿o no?
 
   - key: award.most_write_ins_award.title
-    t: Con más Respuestas Escritas
+    t: Con más respuestas escritas
   - key: award.most_write_ins_award.descriptiona
     t: Concedido al elemento con más respuestas escritas.
 

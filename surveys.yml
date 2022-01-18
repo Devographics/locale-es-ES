@@ -55,14 +55,14 @@ translations:
     - key: bracket.vs
       t: VS
     - key: bracket.start_over
-      t: Empezar de Nuevo
+      t: Empezar de nuevo
     - key: bracket.winner
       t: >
       Ganador: 
     - key: bracket.round
-      t: Round
+      t: Ronda
     - key: bracket.empty_bracket
-      t: Resultados pendientes (completa el round anterior primero)
+      t: Resultados pendientes (primero, completa la ronda anterior)
     - key: bracket.result
       t: Resultado
     - key: bracket.cancel
