@@ -986,9 +986,9 @@ translations:
     ###########################################################################
 
     - key: tools_others.libraries
-      t: Librarías
+      t: Librerías
     - key: tools_others.libraries.description
-      t: ¿Cuáles librarías usas regularmente?
+      t: ¿Cuáles librerías usas regularmente?
     - key: tools_others.libraries.others
       t: Otras librarías
     - key: tools_others.libraries.others.description
