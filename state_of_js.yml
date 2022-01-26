@@ -32,17 +32,17 @@ translations:
       t: El vocabulario de JavaScript.
 
     - key: sections.data_structures.title
-      t: Estructuras de Datos
+      t: Estructuras de datos
     - key: sections.data_structures.description
       t: Como almacenas y manipulas la información.
 
     - key: sections.browser_apis.title
-      t: APIs del Navegador
+      t: APIs del navegador
     - key: sections.browser_apis.description
       t: Características facilitadas por el navegador.
 
     - key: sections.other_features.title
-      t: Otras Características
+      t: Otras características
     - key: sections.other_features.description
       t: Otras tecnologías y patrones.
 
@@ -57,17 +57,17 @@ translations:
       t: Lenguajes que compilan a JavaScript
 
     - key: sections.front_end_frameworks.title
-      t: Front-end Frameworks
+      t: Front-end frameworks
     - key: sections.front_end_frameworks.description
       t: Front-end frameworks y librerías
 
     - key: sections.datalayer.title
-      t: Capa de Datos
+      t: Capa de datos
     - key: sections.datalayer.description
       t: Cargando y manejando datos en tus aplicaciones
 
     - key: sections.back_end_frameworks.title
-      t: Back-end Frameworks
+      t: Back-end frameworks
     - key: sections.back_end_frameworks.description
       t: JavaScript en el servidor
 
@@ -77,20 +77,131 @@ translations:
       t: Herramientas para probar tu código
 
     - key: sections.mobile_desktop.title
-      t: Móviles y Escritorio
+      t: Móviles y escritorio
     - key: sections.mobile_desktop.description
       t: JavaScript para dispositivos móviles y aplicaciones de escritorio
 
     - key: sections.build_tools.title
-      t: Herramientas de Construcción
+      t: Herramientas de construcción
     - key: sections.build_tools.description
       t: Compilando y construyendo código
 
+    - key: sections.monorepo_tools.title
+      t: Herramientas de monorepos
+    - key: sections.monorepo_tools.description
+      t: Herramientas utilizadas para manejar monorepos.
+      
     - key: sections.tools_others.title
       t: Otras herramientas
     - key: sections.tools_others.description
       t: Otras herramientas de JavaScript.
+      
+    - key: sections.other_tools.title
+      t: Otras herramientas
+    - key: sections.other_tools.description
+      t: Para estas herramientas y tecnologías, marca las que uses regularmente.
 
+    ###########################################################################
+    # Options
+    ###########################################################################
+
+    # JS pain points
+    # - key: options.js_pain_points.browser_interoperability
+    #   t: Browser Compatibility
+    # - key: options.js_pain_points.browser_interoperability.description
+    #   t: Differences between Chrome, Safari, Firefox, etc.
+    # - key: options.js_pain_points.animations
+    #   t: Animations
+    # - key: options.js_pain_points.animations.description
+    #   t: Managing animations, transitions, etc. using JavaScript.
+    # - key: options.js_pain_points.form_handling
+    #   t: Form Handling
+    # - key: options.js_pain_points.form_handling.description
+    #   t: Creating forms, managing their state and errors, and saving their data. 
+    - key: options.js_pain_points.state_management
+      t: Manejo de estado
+    - key: options.js_pain_points.state_management.description
+      t: Manejando el estado global de datos en aplicaciones complejas. 
+    # - key: options.js_pain_points.performance_issues
+    #   t: Performance Issues
+    # - key: options.js_pain_points.performance_issues.description
+    #   t: Bundle sizes, slow loading, and other performance issues. 
+    - key: options.js_pain_points.managing_dependencies
+      t: Manejando dependencias
+    - key: options.js_pain_points.managing_dependencies.description
+      t: Manejando dependencias, versiones de paquetes y tamaños de librerías
+    - key: options.js_pain_points.architecture
+      t: Arquitectura de código
+    - key: options.js_pain_points.architecture.description
+      t: Organizando y manteniendo tu base de código.
+    - key: options.js_pain_points.finding_packages
+      t: Encontrando paquetes
+    - key: options.js_pain_points.finding_packages.description
+      t: Encontrando y evaluando paquetes de JavaScript.
+    - key: options.js_pain_points.writing_modules
+      t: Escribiendo módulos
+    - key: options.js_pain_points.writing_modules.description
+      t: Escribiendo y publicando módulos para JavaScript. 
+    - key: options.js_pain_points.debugging
+      t: Depurando
+    - key: options.js_pain_points.debugging.description
+      t: Identificando y resolviendo problemas en tu código. 
+    - key: options.js_pain_points.async_code
+      t: Código asíncrono
+    - key: options.js_pain_points.async_code.description
+      t: Manejando funciones asíncronas. 
+    - key: options.js_pain_points.modules_management
+      t: Manejo de módulos
+    - key: options.js_pain_points.modules_management.description
+      t: Escribiendo e importando módulos. 
+    - key: options.js_pain_points.date_management
+      t: Manejo de fechas
+    - key: options.js_pain_points.date_management.description
+      t: Manejando y manipulando tiempo y fechas. 
+    # - key: options.js_pain_points.xxx
+    #   t: 
+    # - key: options.js_pain_points.xxx.description
+    #   t: 
+
+
+    # JS missing features
+    - key: options.currently_missing_from_js.static_typing
+      t: Tipado estático
+    - key: options.currently_missing_from_js.static_typing.description
+      t: Tipos nativos (parecido a lo que ofrece TypeScript).
+    - key: options.currently_missing_from_js.standard_library
+      t: Librería estándar
+    - key: options.currently_missing_from_js.standard_library.description
+      t: Una librería estándar de utilidades comunes
+    - key: options.currently_missing_from_js.pattern_matching
+      t: Identificación de patrones
+    - key: options.currently_missing_from_js.pattern_matching.description
+      t: Una nueva palabra clave `match` para objetos para identificación de patrones. 
+    - key: options.currently_missing_from_js.pipe_operator
+      t: Operador pipe
+    - key: options.currently_missing_from_js.pipe_operator.description
+      t: Un nuevo operador `|>` para pasar resultados entre funciones.
+    - key: options.currently_missing_from_js.decorators
+      t: Decoradores
+    - key: options.currently_missing_from_js.decorators.description
+      t: Decoradores para añadir funcionalidad a un elemento.
+    - key: options.currently_missing_from_js.immutable_data_structures
+      t: Estructuras de datos immutables
+    - key: options.currently_missing_from_js.immutable_data_structures.description
+      t: Nuevas estructuras immutables como `Record` y `Tuple`.
+    - key: options.currently_missing_from_js.better_date_management
+      t: Mejor manejo de fechas
+    - key: options.currently_missing_from_js.better_date_management.description
+      t: Un nuevo objeto `Temporal` para trabajar con tiempos y fechas.
+    - key: options.currently_missing_from_js.observable
+      t: Observable
+    - key: options.currently_missing_from_js.observable.description
+      t: Un nuevo tipo `observable` para modelar fuentes de datos push.
+    # - key: options.currently_missing_from_js.xxx
+    #   t: 
+    # - key: options.currently_missing_from_js.xxx.description
+    #   t: 
+    
 
     ###########################################################################
     # Features
@@ -106,21 +217,21 @@ translations:
     - key: features.spread_operator.description
       t: 'Ejemplo: `[...array1, ...array2]`'
     - key: features.arrow_functions
-      t: Arrow Functions
+      t: Arrow functions
     - key: features.arrow_functions.description
       t: 'Ejemplo: `const foo = () => {}`'
     - key: features.nullish_coalescing
-      t: Nullish Coalescing
+      t: Nullish coalescing
     - key: features.nullish_coalescing.description
       t: >
         Ejemplo: `const foo = 0 ?? 42`
     - key: features.optional_chaining
-      t: Optional Chaining
+      t: Optional chaining
     - key: features.optional_chaining.description
       t: >
         Ejemplo: `const dogName = adventurer.dog?.name`
     - key: features.private_fields
-      t: Private Fields
+      t: Private fields
     - key: features.private_fields.description
       t: >
         Ejemplo: `class ClassWithPrivateField { #privateField }`
@@ -139,7 +250,7 @@ translations:
         En su forma más sencilla, un decorador es una forma de
         envolver un trozo de código con otro, literalmente, decorándolo.
     - key: features.dynamic_import
-      t: Importación Dinámica
+      t: Importación dinámica
     - key: features.dynamic_import.description
       t: >
         Ejemplo: <code>await import('/modules/my-module.js')</code>
@@ -150,49 +261,65 @@ translations:
     - key: features.sets
       t: Sets
     - key: features.typed_arrays
-      t: Typed Arrays
+      t: Typed arrays
     - key: array_prototype_flat
       t: Array.prototype.flat
 
     # browser apis
     - key: features.service_workers
-      t: Service Workers
+      t: Service workers
     - key: features.local_storage
-      t: LocalStorage
+      t: Local storage
     - key: features.i18n
       t: i18n
     - key: features.web_components
-      t: Componentes Web
+      t: Componentes web
     - key: features.web_audio
-      t: API Web para Audio
+      t: API web para Audio
     - key: features.webgl
       t: WebGL
     - key: features.web_animations
-      t: API Web para Animaciones
+      t: API web para animaciones
     - key: features.webrtc
       t: WebRTC
     - key: features.web_speech
-      t: API Web para Sintetización de Voz
+      t: API web para síntesis de voz
     - key: features.webvr
       t: WebVR
     - key: features.websocket
       t: Websocket
     - key: features.fetch
-      t: API para Llamadas al Servidor (Fetch)
+      t: API para llamadas al servidor (fetch)
 
     # other features
     - key: features.pwa
-      t: Aplicaciones Web Progresivas (PWA)
+      t: Aplicaciones web progresivas (PWA)
     - key: features.wasm
       t: WebAssembly (WASM)
 
     # patterns
     - key: patterns.object_oriented_programming
-      t: Programación Orientada a Objetos
+      t: Programación orientada a objetos
     - key: features.functional_programming
-      t: Programación Funcional
+      t: Programación funcional
     - key: features.reactive_programming
-      t: Programación Reactiva
+      t: Programación reactiva
+
+    # upcoming features
+    # - key: features.static_typing
+    #   t: Static Typing
+
+    # - key: features.standard_library
+    #   t: Standard Library
+    
+    # - key: features.pattern_matching
+    #   t: Pattern Matching
+
+    # - key: features.pipe_operator
+    #   t: Pipe Operator
+
+    # - key: features.immutable_data_structures
+    #   t: Immutable Data Structures
 
     ###########################################################################
     # Tools
@@ -208,22 +335,27 @@ translations:
     ###########################################################################
 
     - key: tools_others.runtimes
-      t: JavaScript Runtimes
+      t: JavaScript runtimes
     - key: tools_others.runtimes.description
       t: ¿Qué motores/runtimes/entornos de ejecución usas con regularidad?
     - key: tools_others.runtimes.others
-      t: Otros Runtimes
+      t: Otros runtimes
     - key: tools_others.runtimes.others.description
       t: Otras respuestas (campos de texto libre).
 
     - key: tools_others.package_registries
-      t: Registros de Paquetes
+      t: Registros de paquetes
     - key: tools_others.package_registries.description
       t: ¿De que registros de paquetes coges paquetes con regularidad?
     - key: tools_others.package_registries.others
-      t: Otros Registros de Paquetes
+      t: Otros registros de paquetes
     - key: tools_others.package_registries.others.description
       t: Otras respuestas (campos de texto libre).
+
+    - key: tools_others.form_factors
+      aliasFor: environments.form_factors
+    - key: tools_others.form_factors.description
+      aliasFor: environments.form_factors.description
 
     ###########################################################################
     # Opinions
@@ -257,3 +389,29 @@ translations:
 
     - key: happiness.state_of_js
       t: ¿Cómo de satisfecho estás con el estado general de JavaScript?
+
+    # Pain Points
+    - key: opinions.js_pain_points
+      t: Puntos dolorosos de JavaScript
+    - key: opinions.js_pain_points.description
+      t: Para cada emparejamiento, elige un aspecto de JavaScript con el que te hayas te nido que pegar demasiado.
+
+    - key: opinions_others.js_pain_points.others
+      t: Otros puntos dolorosos de JavaScript
+
+    # Missing Features
+    - key: opinions.currently_missing_from_js
+      t: ¿Qué te parece que le falta a JavaScript actualmente?
+    - key: opinions.currently_missing_from_js.description
+      t: Por cada emparejamiento, elige la característica de JavaScript que más te gustaría poder usar hoy.
+    - key: opinions_others.currently_missing_from_js.others
+      t: Otras características que faltan
+
+    ###########################################################################
+    # Resources
+    ###########################################################################
+    
+    - key: resources.first_steps
+      t: Primeros pasos con JavaScript
+    - key: resources.first_steps.description
+      t: ¿Cómo empezaste a aprender JavaScript?

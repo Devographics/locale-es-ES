@@ -7,7 +7,7 @@ translations:
 
     - key: general.survey_intro_css2021
       t: >
-          Hola CSS, ¿Qué has estado haciendo últimamente? Oh, en serio, ¿`@container`? y 
+          Hola CSS, ¿Qué has estado haciendo últimamente? ¡Oh!, ¿en serio?, ¿`@container`? y 
           ¿el tamaño intrínseco? Y también  ¿`@property`? ¡Vaya, has estado ocupado!
 
           A pesar de que la pandemia ha seguido complicándonos la vida a todos a lo largo de 2021,

@@ -6,10 +6,8 @@ translations:
 
     - key: general.no_preview_surveys
       t: No hay encuestas para mostrar
-
     - key: general.global_nav
       t: Global
-
 
     ###########################################################################
     # FAQ
@@ -49,3 +47,28 @@ translations:
       t: ¿Quién realiza estas encuestas?
     - key: faq.team.description
       t: Las encuestas las gestiono [yo](http://sachagreif.com) con ayuda de otros miembros del equipo, traductores y voluntarios.
+
+    ###########################################################################
+    # Form Controls
+    ###########################################################################
+
+    - key: bracket.vs
+      t: VS
+    - key: bracket.start_over
+      t: Empezar de nuevo
+    - key: bracket.winner
+      t: >
+      Ganador: 
+    - key: bracket.round
+      t: Ronda
+    - key: bracket.empty_bracket
+      t: Resultados pendientes (primero, completa la ronda anterior)
+    - key: bracket.result
+      t: Resultado
+    - key: bracket.cancel
+      t: Cancelar
+
+
+    ###########################################################################
+    # Demographics (About You/User Info)
+    ###########################################################################
