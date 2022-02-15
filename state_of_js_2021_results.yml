@@ -1,0 +1,185 @@
+locale: en-US
+translations:
+    ###########################################################################
+    # Introduction
+    ###########################################################################
+
+    - key: sections.introduction.description
+      t: |
+
+            <span class="first-letter">M</span> uchas cosas pasaron en el 2021. ¡Tanto, de hecho, que la encuesta se retrasó hasta 2022! 
+            
+            Entre una gran cantidad de herramientas de compilación más rápidas y una nueva cosecha de marcos de back-end, el mundo de JavaScript siguió evolucionando. E hicimos todo lo posible para mantenernos al día, dándole a esta encuesta un par de nuevas actualizaciones ([leer más sobre las novedades](https://dev.to/sachagreif/whats-new-in-the-20212022-state-of -javascript-4jkf)), como nuevos tipos de preguntas, la capacidad de hacer referencias cruzadas de dos puntos de datos (como salarios anuales por nivel de experiencia) e incluso una forma de personalizar los gráficos para mostrar tus propias perspectivas. Obten más información sobre [las novedades de este año](https://dev.to/sachagreif/whats-new-in-the-20212022-state-of-javascript-4jkf) (Artículo en Inglés).
+           
+            Sin embargo, no todo fue viento en popa. Tuvimos que lidiar con una [fuga de datos](https://dev.to/sachagreif/disclosing-a-state-of-javascriptstate-of-css-data-breach-2lg1) que afortunadamente no parece tener malas consecuencias. Y nos esforzamos constantemente para que la encuesta sea más inclusiva, más accesible y más justa.
+            
+            Aún así, a pesar de que la encuesta sólo puede representar una pequeña parte del ecosistema de JavaScript, ¡esperamos que encuentres interesantes los datos encuestados!
+
+            <span class="conclusion__byline">– Sacha Greif</span>
+
+    ###########################################################################
+    # Tshirt
+    ###########################################################################
+
+    - key: sections.tshirt.title
+      t: Camiseta
+
+    - key: sections.tshirt.description
+      t: |
+          ## Apoya la encuesta con la camiseta del estado de JavaScript
+
+          Entre la mala calidad del video, los voluminosos casetes y tener que rebobinar, no hay mucho que perderse de la era del VHS. Pero una cosa que *sí* extrañamos son las asombrosas imágenes de los 90 que solían adornar las cintas VHS en blanco.
+
+          ¡Pero ahora, gracias al talentoso Christopher Kirk-Nielsen, puedes disfrutar de toda esta exuberancia retro mientras celebras tu amor por CSS al mismo tiempo!
+
+    - key: tshirt.about
+      t: Acerca de la camiseta
+
+    - key: tshirt.description
+      t: |
+          Usamos una camiseta de alta calidad, supersuave con un ajuste delgado impresa por nuestros socios de Cotton Bureau.
+          We use a high-quality, super-soft tri-blend shirt with a slim fit printed by our partners at Cotton Bureau. 
+
+    - key: tshirt.getit
+      t: Consíguela
+
+    - key: tshirt.price
+      t: USD $29 + envío
+
+    - key: tshirt.designer.heading
+      t: Sobre el diseñador
+
+    - key: tshirt.designer.name
+      t: Christopher Kirk-Nielsen
+
+    - key: tshirt.designer.bio
+      t: |
+        Originario de Francia, pero ahora con sede en los Estados Unidos, Chris no solo es un desarrollador front-end increíble, sino también un ilustrador talentoso que se especializa en imágenes retro. De hecho, ¡te animamos a que también veas sus [otros diseños de camisetas] (https://chriskirknielsen.com/designs)!
+
+    ###########################################################################
+    # Sections
+    ###########################################################################
+
+    - key: sections.user_info.description
+      t: |
+          Este año, **16,085** encuestados participaron en la encuesta, y 
+          para ayudar a resaltar las diferentes voces y sacar a la luz las ideas más profundas, hicimos un especial
+          esfuerzo para proporcionar nuevas formas de desglosar nuestros datos.
+
+    - key: sections.features.description
+      t: |
+          Puede que JavaScript se mueva rápido, pero parece que los desarrolladores de JavaScript se mueven aún más rápido, ya que muchas características relativamente nuevas ya muestran altos niveles de adopción. 
+
+    - key: sections.technologies.description
+      t: |
+          Los resultados de este año apuntan a un alto grado de fragmentación en el mundo de JavaScript. Pero si bien esto a veces puede causar dolores de cabeza, toda esa competencia genera un ecosistema muy dinámico.
+
+    - key: sections.tools_others.description
+      t: |
+          Elegir una tecnología a menudo puede reducirse a una serie de decisiones difíciles entre
+          prioridades opuestas, y este año tratamos de capturar este proceso utilizando un nuevo formato de pregunta estilo paréntesis. 
+
+    - key: sections.environments.description
+      t: |
+          Durante mucho tiempo, la accesibilidad ha sido una idea tardía cuando se trata de desarrollo web, pero actualmente muchos desarrolladores
+          se están dando cuenta de que, de hecho, debería ser la base de todo lo demás.
+
+    - key: sections.resources.description
+      t: |
+          Destacar blogs, podcasts y sitios fue un buen comienzo, pero este año decidimos ir un paso más allá.
+          ¡y realmente destacar las personas que son miembros de la comunidad de JavaScript!
+
+    - key: sections.opinions.description
+      t: |
+          Ya sean los puntos débiles los que te retienen en la actualidad o las características que hacen falta y que esperas utilizar
+          mañana,  ¡esta fue tu oportunidad de desahogarte y compartir tus quejas sobre JavaScript!
+
+    ###########################################################################
+    # Charts
+    ###########################################################################
+     
+    - key: options.features_categories.language
+      aliasFor: sections.language.title
+    - key: options.features_categories.browser_apis
+      aliasFor: sections.browser_apis.title
+    - key: options.features_categories.other_features
+      aliasFor: sections.other_features.title
+
+    - key: blocks.tools_quadrant.description
+      t: |
+        Esta gráfica muestra el **índice de satisfacción** (o **índice de interés**) de cada tecnología sobre el **recuento total de usuarios**.
+        Se puede dividir en cuatro cuadrantes:
+
+          - **1**: Bajo uso, alta satisfacción. Tecnologías que merecen que les eches un ojo.
+
+          - **2**: Muy utilizadas, alta satisfacción. Tecnologías seguras para adoptar.
+
+          - **3**: Bajo uso, baja satisfacción. Tecnologías que son difíciles de recomendar en la actualidad.
+
+          - **4**: Muy utilizadas, baja satisfacción. Vuelve a evaluar estas tecnologías si las estás utilizando actualmente.
+
+    ###########################################################################
+    # Notes
+    ###########################################################################
+
+    - key: blocks.gender.note
+      t: |
+          Si estás interesado/a en obtener más información, [escribimos un artículo](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) que habla sobre cómo fue la dinámica para generar la encuesta.
+
+    - key: blocks.currently_missing_from_css.note
+      t: |
+          Puedes explorar el conjunto completo de datos de respuestas a esta pregunta en [este proyecto paralelo] (https://whatsmissingfromcss.com/).
+
+    - key: blocks.source.note
+      t: >
+      
+        Esta gráfica es una combinación de referencias, parámetros de URL y respuestas de forma libre.
+
+        - Estado de JS: la lista de correo del [estado de JS](https://stateofjs.com).
+
+        - Estado de CSS: la lista de correos del estado de CSS; también coincide con `correo`, `por correo`, etc.
+
+        - Trabajo: coincide con `trabajo`, `colegas`, `compañeros de trabajo`, etc.
+
+    ###########################################################################
+    # Awards
+    ###########################################################################
+
+    - key: award.feature_adoption_delta_award.comment
+      t: Con una progresión de  **{value}** en 2021, el operador coalescente nulo (??) se ha convertido rápidamente en una parte integral de JavaScript.
+
+    - key: award.tool_usage_delta_award.comment
+      t: esbuild tiene apenas dos años, pero con una progresión de **{valor}** en el último año ya está ganando terreno.
+
+    - key: award.tool_satisfaction_award.comment
+      t: Vite ocupa el primer lugar con un altísimo índice de satisfacción de **{value}**.
+
+    - key: award.tool_interest_award.comment
+      t: ¡Con una relación de interés de **{valor}**, Vite vuelve a ganar el oro!
+
+    - key: award.most_write_ins_award.comment
+      t: Muchas preguntas también aceptaron respuestas por escrito, y con **{valor}** menciones Elm fue el elemento más popular.
+      
+
+ 
+    ###########################################################################
+    # Conclusion
+    ###########################################################################
+
+    - key: sections.conclusion.description
+      t: |
+
+            <span class="first-line">JavaScript se encuentra en un estado tremendamente mejor hoy en comparación con 2016.</span>
+            
+            Cuando se realizó la primera encuesta del estado de JS, sólo el 21% de los encuestados usaba TypeScript en comparación con el 69% actual. Mientras que solíamos bromear sobre el lanzamiento de un nuevo marco de front-end todo los días, **React** y **Vue** han sido dominantes durante 6 años consecutivos. Y el porcentaje de encuestados que respondieron que "JS se está moviendo demasiado rápido" se redujo del 59% al 38%. 
+
+            Esto no quiere decir que el lenguaje se haya detenido. Las API **Optional Chaining** y **Nullish Coalescing** se han disparado hasta convertirse en las nuevas API más utilizadas en nuestra encuesta, a pesar de tener solo 2 años. Y hay más cosas buenas en camino desde TC39: informó que la gestión de fechas es una de las principales características que faltan, y la API temporal alcanzó recientemente la [Etapa 3] (https://github.com/tc39/proposal-temporal).
+
+            El ecosistema de herramientas también está experimentando su propia evolución rápida, y es justo decir que 2021 ha sido el año de **Vite**. Vite no sólo debutó con un 98% de satisfacción, sino que su uso ya está en un 30% en su primer año en nuestra encuesta, incluso sobrepasando esbuild. Vite no es el único que intenta mejorar el estado de las herramientas de compilación de JavaScript: ¡8 de las 12 herramientas que rastreamos hoy tienen menos de dos años! Y aunque **pnpm**, **Turborepo** y **Nx** ocuparon los primeros lugares en nuestro primer año de seguimiento de herramientas monorepo, solo el 25% de los encuestados están satisfechos con el estado de está categoría, lo que demuestra que aún queda mucho trabajo por hacer. 
+            
+            También notable: muchos nuevos participantes como **Deno**, **Rome**, **Astro**, **Remix** y más que cuentan con el apoyo de empresas respaldadas por capital de riesgo, lo que quizás representa una alternativa viable a los frágiles desarrollos libres.
+
+            A medida que la [Tercera edad de JavaScript](https://www.swyx.io/js-third-age/) ingresa a su tercer año, las oportunidades para los aspirantes y emprendedores de desarrollos de código abierto continúan formandonse, y estoy emocionado de ver lo que traerán los próximos dos años!
+
+    - key: conclusion.bio
+      t: Jefe de DX en Temporal
