@@ -12,10 +12,10 @@ translations:
       t: Permanece en contacto
 
     - key: homepage.made_by
-      t: 'El Estado de CSS está Hecho por:'
+      t: 'El Estado de CSS está hecho por:'
 
     - key: homepage.previous_years
-      t: 'Años Anteriores:'
+      t: 'Años anteriores:'
 
     - key: homepage.intro
       t: >
@@ -34,10 +34,10 @@ translations:
       t: Resultados de 2019
 
     - key: share.help_spread
-      t: ¡Ayúdanos a Darla a Conocer!
+      t: ¡Ayúdanos a darla a conocer!
 
     - key: newsletter.stay_tuned
-      t: Estate Informado
+      t: Manténte al tanto
     - key: newsletter.leave_your_email
       t: Déjanos tu correo electrónico y te informaremos de futuras encuestas.
 

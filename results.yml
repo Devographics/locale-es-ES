@@ -25,7 +25,7 @@ translations:
     t: ¡Gracias a nuestros socios por apoyarnos!
 
   - key: partners.learn_more
-    t: Aprender más.
+    t: Aprende más.
 
   - key: tabs.all_respondents
     t: Todos los que han respondido
@@ -34,7 +34,7 @@ translations:
   - key: tabs.other_answers
     t: Otras respuestas
   - key: tabs.bracket_wins
-    t: Victorias
+    t: Ganadores
   - key: tabs.bracket_matchups
     t: Emparejamientos
   - key: tabs.chart
@@ -83,14 +83,14 @@ translations:
   - key: options.features_mode.usage_rank
     t: Por uso
   - key: options.features_mode.usage_ratio_rank
-    t: Por ratio de uso
+    t: Por proporción de uso
 
   - key: options.features_simplified.know_it
     t: Lo conozco
   - key: options.features_simplified.used_it
     t: Lo he usado
   - key: options.features_simplified.usage_ratio
-    t: Ratio de uso
+    t: Proporción de uso
 
   - key: options.quadrant.assess
     t: EVALUAR
@@ -106,13 +106,34 @@ translations:
     t: EVITAR
   - key: options.quadrant.avoid.long
     t: |
-      EVITAR: Bajo uso, baja satisfacción. Tecnologías que probablemente debería evitar a día de hoy.
+      EVITAR: Bajo uso, baja satisfacción. Tecnologías que probablemente deberían ser evitadas actualmente.
   - key: options.quadrant.analyze
     t: ANALIZAR
   - key: options.quadrant.analyze.long
     t: |
-      ANALIZAR: Muy utilizadas, baja satisfacción. Piénsalo bien, si estás utilizando estás tecnologías actualmente.
+      ANALIZAR: Muy utilizadas, baja satisfacción. Vuelve a evaluar estas tecnologías si las estás utilizando actualmente.
 
+  - key: options.quadrant.1
+    t: 1
+  - key: options.quadrant.1.long
+    t: |
+      1: Bajo uso, alta satisfacción. Tecnologías que merecen que les eches un ojo.
+  - key: options.quadrant.2
+    t: 2
+  - key: options.quadrant.2.long
+    t: |
+      2: Muy utilizadas, alta satisfacción. Tecnologías seguras para adoptar.
+  - key: options.quadrant.3
+    t: 3
+  - key: options.quadrant.3.long
+    t: |
+      3: Bajo uso, baja satisfacción. Tecnologías que son difíciles de recomendar.
+  - key: options.quadrant.4
+    t: 4
+  - key: options.quadrant.4.long
+    t: |
+      4: Muy utilizadas, baja satisfacción. Vuelve a evaluar estas tecnologías si las estás utilizando actualmente.
+   
   - key: ranges.selector.years_of_experience
     t: Experiencia
   - key: ranges.selector.yearly_salary
@@ -143,6 +164,14 @@ translations:
     t: Epilepsia
   - key: options.disability_status_others.aspergers
     t: Asperger
+  - key: options.disability_status_others.color_blindness
+    t: Daltonismo
+  - key: options.disability_status_others.anxiety
+    t: Ansiedad
+  - key: options.disability_status_others.dyslexia
+    t: Dislexia
+  - key: options.disability_status_others.diabetes
+    t: Diabetes
 
   ###########################################################################
   # Sections
@@ -159,6 +188,9 @@ translations:
 
   - key: sections.technologies.title
     t: Tecnologías
+
+  - key: sections.libraries.title
+    t: Librerías
 
   - key: sections.conclusion.title
     t: Conclusión
@@ -187,7 +219,7 @@ translations:
   - key: user_info.locale
     t: Lenguaje
   - key: user_info.locale.description
-    t: ¿En que lenguaje se ha respondido la encuesta?
+    t: ¿En qué lenguaje se ha respondido la encuesta?
   - key: user_info.locale.note
     t: >
       Esta información se recoge automáticamente basándonos en la configuración del encuestado;
@@ -198,7 +230,7 @@ translations:
   - key: user_info.source.description
     t: ¿Cómo se ha conocido la encuesta?
   - key: user_info.source.note
-    t: Esta información es una mezcla de las respuestas notificadas, información referida y datos de seguimiento de URLs.
+    t: Esta información es una combinación de las respuestas notificadas, información referida y datos de seguimiento de URLs.
 
   - key: user_info.gender_by_country
     t: Género por país
@@ -250,7 +282,7 @@ translations:
   - key: options.locale.fr-FR
     t: Francés
   - key: options.locale.zh-Hant
-    t: Chino Tradicional
+    t: Chino (Tradicional)
   - key: options.locale.de-DE
     t: Alemán
   - key: options.locale.cs-CZ
@@ -293,7 +325,7 @@ translations:
   - key: features.mdn_link
     t: MDN
   - key: features.caniuse_link
-    t: CanIUse
+    t: Can I Use
   - key: features.specification_link
     t: Especificación de la W3C
 
@@ -391,9 +423,9 @@ translations:
 
         - **ADOPTAR**: Muy utilizadas, alta satisfacción. Tecnologías seguras para adoptar.
 
-        - **EVITAR**: Bajo uso, baja satisfacción. Tecnologías que probablemente debería evitar a día de hoy.
+        - **EVITAR**: Bajo uso, baja satisfacción. Tecnologías que probablemente deberían ser evitadas actualmente.
 
-        - **ANALIZAR**: Muy utilizadas, baja satisfacción. Piénsalo bien, si estás utilizando estás tecnologías actualmente.
+        - **ANALIZAR**: Muy utilizadas, baja satisfacción. Vuelve a evaluar estas tecnologías si las estás utilizando actualmente.
 
   # category other tools
   - key: blocks.category_other_tools
@@ -403,13 +435,13 @@ translations:
 
   # tool experience
   - key: blocks.tool_experience
-    t: '{name} experiencia en el tiempo'
+    t: "{name} experiencia"
   - key: blocks.tool_experience.description
-    t: Experiencia con {name}.
+    t: Experiencia del encuestado con {name}.
 
   # tool positive/negative split ("marimekko" chart)
   - key: blocks.tools_experience_marimekko
-    t: División positiva/Negativa
+    t: División positiva/negativa
   - key: blocks.tools_experience_marimekko.description
     t: |
       Este gráfico se divide en experiencias positivas ("quiero aprender", "volvería a usar") vs.
@@ -418,12 +450,24 @@ translations:
 
       El grosor de la barra representa el número de encuestados que conocen una tecnología.
 
+  # tool tier list
+  - key: blocks.tools_tier_list
+    t: Lista de niveles de la librería
+  - key: blocks.tools_tier_list.description
+    t: |
+      Este gráfico clasifica las librerías según su índice de satisfacción (porcentaje de usuarios
+      quién volvería a usar una librería). Ten en cuenta que las librerías que son utilizadas por menos del 10% de
+      los encuestados no están incluidas.
+  - key: blocks.tools_tier_list.bounds
+    t: >
+      {lowerBound}% - {upperBound}%
+
   # tools section streams
   - key: blocks.tools_section_streams
-    t: Experiencia en el tiempo
+    t: Experiencia a lo largo del tiempo
   - key: blocks.tools_section_streams.description
     t: |
-      Opiniones sobre la tecnologías encuestadas, en el tiempo.
+      Opiniones sobre la tecnologías encuestadas a lo largo del tiempo.
   - key: blocks.tools_section_streams.note
     t: |
       No se incluyen las tecnologías con solo un año de datos.
@@ -558,26 +602,6 @@ translations:
   - key: tool_evaluation.tool_evaluation_matchups.description
     t: ¿Qué factores priorizas en la evaluación de una nueva librería? Porcentaje de rondas ganadas por el ítem de la izquierda frente al item de arriba.
 
-  - key: css_pain_points.css_pain_points_wins
-    t: Puntos dolorosos de CSS
-  - key: css_pain_points.css_pain_points_wins.description
-    t: ¿Qué aspectos de CSS te resultan más complicados? Los resultados están ordenados por el número de rondas ganadas.
-
-  - key: css_pain_points.css_pain_points_matchups
-    t: Puntos dolorosos de CSS (Emparejamientos)
-  - key: css_pain_points.css_pain_points_matchups.description
-    t: ¿Qué aspectos de CSS te resultan más complicados? Porcentaje de rondas ganadas por el ítem de la izquierda frente al item de arriba.
-
-  - key: currently_missing_from_css.currently_missing_from_css_wins
-    t: Características que faltan en CSS
-  - key: currently_missing_from_css.currently_missing_from_css_wins.description
-    t: ¿Qué características de CSS te gustaría poder usar hoy? Los resultados están ordenados por el número de rondas ganadas.
-
-  - key: currently_missing_from_css.currently_missing_from_css_matchups
-    t: Características que faltan en CSS (Emparejamientos)
-  - key: currently_missing_from_css.currently_missing_from_css_matchups.description
-    t: ¿Qué características de CSS te gustaría poder usar hoy? Porcentaje de rondas ganadas por el ítem de la izquierda frente al item de arriba.
-
   ###########################################################################
   # Charts
   ###########################################################################
@@ -681,22 +705,8 @@ translations:
   - key: charts.tools_arrows.negative
     t: Perdiendo popularidad
 
-  - key: options.features_categories.layout
-    aliasFor: sections.layout.title
-  - key: options.features_categories.shapes_graphics
-    aliasFor: sections.shapes_graphics.title
-  - key: options.features_categories.interactions
-    aliasFor: sections.interactions.title
-  - key: options.features_categories.typography
-    aliasFor: sections.typography.title
-  - key: options.features_categories.animations_transforms
-    aliasFor: sections.animations_transforms.title
-  - key: options.features_categories.accessibility
-    aliasFor: sections.accessibility.title
-  - key: options.features_categories.media_queries
-    aliasFor: sections.media_queries.title
-  - key: options.features_categories.other_features
-    aliasFor: sections.other_features.title
+  - key: charts.no_answer
+    t: Sin respuesta
 
   ###########################################################################
   # Sharing
@@ -872,8 +882,7 @@ translations:
   - key: hints.units_switcher_hint
     t: >
       Puedes utilizar el control segmentado en la parte superior derecha de cada bloque para cambiar
-      entre porcentajes relativos y conteos absolutos para obtener una vista diferente de la
-      misma informacióm.
+      entre porcentajes relativos y conteos absolutos para obtener una vista diferente de la misma informacióm.
 
   - key: hints.export_hint
     t: >
@@ -883,10 +892,8 @@ translations:
 
   - key: hints.completion_hint
     t: >
-     Dado que todas las preguntas son opcionales, algunas de ellas 
-     obtuvieron menos respuestas que otras. El indicador de finalización 
-     (<span class="hint-completion-indicator">◕</span>) te dice exactamente 
-     cuántas personas respondieron una pregunta determinada.
+      Dado que todas las preguntas son opcionales, algunas de ellas obtuvieron menos respuestas que otras. 
+      El indicador de finalización (<span class="hint-completion-indicator">◕</span>) te dice exactamente cuántas personas respondieron una pregunta determinada.
 
   - key: hints.tool_modal_hint
     t: >
@@ -922,3 +929,96 @@ translations:
     t: >
       <span class="hint-bracket"><span class="hint-text">El siguiente gráfico contiene los resultados de un torneo a 8 en el cual
       se pidió a los encuestados que eligieran al ganador de cada encuentro hasta que sólo quedó uno.</span><span class="hint-diagram"/></span>
+
+  ###########################################################################
+  # Sponsor Chart
+  ###########################################################################
+
+  - key: sections.sponsor_finish.title
+    t: Gracias
+
+  - key: sponsor.sponsor_finish
+    t: >
+      Gracias por apoyar la encuesta. Tu avatar debe aparecer junto al gráfico que elegiste
+      en la próxima hora. Si no es así, [contáctanos] (mailto:chartsponsor@stateofjs.com).
+    
+
+  - key: sponsor.sponsored_by
+    t: >
+        **{name}** donó **${amount}** para patrocinar este gráfico
+
+  - key: sponsor.sponsor_button
+    t: Patrocina esta gráfico
+
+  - key: sponsor.sponsor_chart.title
+    t: Gráfico patrocinador "{title}"
+
+  - key: sponsor.sponsor_chart.description
+    t: >   
+      Apoya financieramente esta encuesta donando $10 o más, y obten tu
+      ¡Avatar de Twitter junto a un gráfico!
+
+  - key: sponsor.chart_id
+    t: 'ID del gráfico: '
+
+  - key: sponsor.sponsor_this_chart
+    t: Patricina este gráfico (${baseAmount}+) 
+
+  - key: sponsor.how_it_works.title
+    t: ¿Cómo funciona?
+
+  - key: sponsor.how_it_works.description
+    t: >
+      1. Cuando **haces clic en el botón "Patrocinar este gráfico"**, serás redirigido a la página de pago de nuestro socio [SendOwl](https://www.sendowl.com/).
+      
+      
+      2. Luego puedes **ajustar la cantidad** por la que te gustaría patrocinar la encuesta, a partir de USD10.
+      
+      
+      3. Una vez que finalices la compra, podrás **proporcionar tu nombre de usuario de Twitter**.
+      
+      
+      4. Verás una página de **Descarga de archivos**, pero puedes ignorarla sin problemas.
+      
+      
+      5. El sitio se reconstruirá en segundo plano y tu nombre de usuario y donación **aparecerán junto al gráfico en la próxima hora**.
+
+
+  - key: sponsor.faq.title
+    t: Preguntas más frecuentes
+
+  - key: sponsor.faq.usage.title
+    t: ¿Para qué se utilizará mi donación?
+
+  - key: sponsor.faq.usage.description
+    t: Tu donación ayudará a cubrir [mis](https://sachagreif.com/) gastos de subsistencia, así como a contratar a más colaboradores (ilustradores, expertos en accesibilidad y diversidad, etc.).
+
+  - key: sponsor.faq.public.title
+    t: ¿Mi donación será pública?
+
+  - key: sponsor.faq.public.description
+    t: Si. Tu **nombre de usuario de Twitter** y la **cantidad que donaste** se mostrarán públicamente junto al gráfico.
+
+  # - key: sponsor.faq.donation_public.title
+  #   t: Can I donate on somebody else's behalf?
+
+  # - key: sponsor.faq.donation_public.description
+  #   t: You can enter a Twitter username other than your own, but that person will have the right to remove the donation if they request it. 
+
+  - key: sponsor.faq.refund.title
+    t: ¿Cuál es su política de reembolso?
+
+  - key: sponsor.faq.refund.description
+    t: Todas las donaciones son reembolsables dentro de un período de 1 semana, menos las tarifas de transacción.
+
+  - key: sponsor.faq.influence.title
+    t: ¿Las donaciones influyen en el contenido de la encuesta?
+
+  - key: sponsor.faq.influence.description
+    t: Las donaciones se realizan una vez que la encuesta ya está publicada, y los donantes no tienen ninguna influencia en los contenidos de la encuesta. 
+
+  - key: sponsor.faq.feedback.title
+    t: ¿Dónde puedo dejar comentarios/hacer preguntas?
+
+  - key: sponsor.faq.feedback.description
+    t: Puedes dejar tus comentarios o preguntas [en GitHub](https://github.com/StateOfJS/Monorepo/issues/69) o [en nuestro Discord](https://discord.gg/tuWRUWVyJs).
