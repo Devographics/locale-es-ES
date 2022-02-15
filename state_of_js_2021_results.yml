@@ -161,7 +161,6 @@ translations:
       t: Muchas preguntas también aceptaron respuestas por escrito, y con **{valor}** menciones Elm fue el elemento más popular.
       
 
- 
     ###########################################################################
     # Conclusion
     ###########################################################################
@@ -183,3 +182,246 @@ translations:
 
     - key: conclusion.bio
       t: Jefe de DX en Temporal
+
+    ###########################################################################
+    # Picks
+    ###########################################################################
+
+    - key: picks.my_pick
+      t: 'Mis selecciones de 2021: '
+    - key: picks.intro
+      t: Pedimos a los miembros de la comunidad de CSS que compartieran su "selección del año"
+
+    - key: picks.lee_robinson.name
+      t: SvelteKit
+    - key: picks.lee_robinson.bio
+      t: Director of Developer Relations at Vercel
+    - key: picks.lee_robinson.description
+      t: |
+          SvelteKit es una nueva versión para desarrollo web y tiene una increíble comunidad de seguidores apasionada y en crecimento. 
+
+    - key: picks.vadim_makeev.name
+      t: Procesamiento en el lado del servidor
+    - key: picks.vadim_makeev.bio
+      t: DevRel, Podcaster & Web Standards Advocate
+    - key: picks.vadim_makeev.description
+      t: |
+          Ha llegado el momento de aclarar nuestras prioridades.
+          UX > DX, y siempre ha sido así. ¡Rendimiento para el éxito!
+            
+    - key: picks.ben_ilegbodu.name
+      t: Lee Robinson
+    - key: picks.ben_ilegbodu.bio
+      t: Ben Ilegbodu, Principal Frontend Engineer @ Stitch Fix
+    - key: picks.ben_ilegbodu.description
+      t: |
+          Lee ha sido una gran guía para dar a conocer Next.js. 
+          Él me ha ayudado bastante con Next y continua contruyendo entusiasmo
+          por su camino en el futuro
+            
+    - key: picks.shawn_wang.name
+      t: Supabase
+    - key: picks.shawn_wang.bio
+      t: Head of DX at Temporal
+    - key: picks.shawn_wang.description
+      t: |
+          Supabase está haciendo Postgres accesible a más desarrolladores y mostrando a 
+          todos  cómo un pequeño equipo enfocado puede superar a equipos de 10 veces su tamaño.
+
+    - key: picks.sarah_drasner.name
+      t: Pawel Kozlowski
+    - key: picks.sarah_drasner.bio
+      t: 
+    - key: picks.sarah_drasner.description
+      t: |
+          Pawel Kozlowski es el tipo de desarrollador que puede tener la mente abierta a diferentes
+          enfoques con humildad y curiosidad con el interés de mejorar las cosas.
+
+    - key: picks.sara_vieira.name
+      t: Paul Henschel
+    - key: picks.sara_vieira.bio
+      t: International Agent of JS Bullshit
+    - key: picks.sara_vieira.description
+      t: |
+          El trabajo de Paul en animacions y ReactThreeFiber 
+          han echo que hacer cualquier tipo de trabajo en 3D en la web sea mucho más fácil. 
+
+    - key: picks.mark_erikson.name
+      t: Ryan Carniato
+    - key: picks.mark_erikson.bio
+      t: Redux Maintainer
+    - key: picks.mark_erikson.description
+      t: |
+          El framework reactivo de Ryan, SolidJS, llegó a la versión 1.0, 
+          y Ryan escribió numerosos artículos analizando conceptos avanzados
+          de implementación del framework JS.
+    
+    - key: picks.miguel_angel_duran.name
+      t: Vite
+    - key: picks.miguel_angel_duran.bio
+      t: Front End Dev & Twitch Coding Streamer
+    - key: picks.miguel_angel_duran.description
+      t: | 
+          Además de esbuild y swc, herramientas fantásticas que impulsan el ecosistema,
+          Estoy disfrutando Vite. Tiene un DX encantador y una gran lista de características.
+      
+    - key: picks.alyssa_nicoll.name
+      t: BroccoDev's Twitch Stream
+    - key: picks.alyssa_nicoll.bio
+      t: Sr. Developer Advocate at Progress
+    - key: picks.alyssa_nicoll.description
+      t: |
+        Mike Brocchi recientemente comenzó a transmitir a Twitch. Es un programador brillante,
+        desarrollador y, sobre todo, profesor.
+        Siempre me divierto viendo sus transmisiones y aprendiendo de él.
+      
+    - key: picks.michael_jackson.name
+      t: esbuild
+    - key: picks.michael_jackson.bio
+      t: Co-foundador de Remix
+    - key: picks.michael_jackson.description
+      t: |
+        Hemos estado construyendo el compilador Remix sobre esbuild y
+        definitivamente ha subido estándares del en lo que respecta a los paquetes de JS.
+        Es increíblemente rápido y la API nos permite hacer casi todo lo que queremos.
+
+    - key: picks.david_khourshid.name
+      t: Remix
+    - key: picks.david_khourshid.bio
+      t: Pianist and founder of Stately
+    - key: picks.david_khourshid.description
+      t: |
+          Remix es un framework web de pila completa que se siente antiguo, pero en el buen sentido,
+          porque te pone en el camino para crear aplicaciones web modernas, rápidas, complejas y accesibles.
+      
+    - key: picks.kent_c_dodds.name
+      t: Fly.io
+    - key: picks.kent_c_dodds.bio
+      t: Director of Developer Experience, Remix
+    - key: picks.kent_c_dodds.description
+      t: |
+
+          Fly me permitió (un ingeniero front-end con desdén por DevOps)
+          implementar con confianza una aplicación de nivel de producción del mundo real,
+          distribuida globalmente.
+
+    - key: picks.tejas_kumar.name
+      t: Joe Haddad
+    - key: picks.tejas_kumar.bio
+      t: Web Developer, Conference Speaker, and Director of DevRel at Xata
+    - key: picks.tejas_kumar.description
+      t: |   
+          Joe trabaja en Next.js en Vercel y busca constantemente demostrar
+          con orgullo su poder mientras escucha activamente
+          a los comentarios de la comunidad para apoyarlos mejor.
+
+    - key: picks.wes_bos.name
+      t: TC39 Proposals
+    - key: picks.wes_bos.bio
+      t: Profesor de JavaScript & Presentador de Podcasts
+    - key: picks.wes_bos.description
+      t: |
+         Un repositorio de Git lleno de todas las cosas que se han propuesto para  agregar a JavaScript. Es realmente divertido leer todas las ideas que la gente tiene para el lenguage y verlas pasar por las etapas.
+      
+    - key: picks.scott_tolinkski.name
+      t: SvelteKit
+    - key: picks.scott_tolinkski.bio
+      t: Creador de Level-Up Tuts, co-presentador de Syntax
+    - key: picks.scott_tolinkski.description
+      t: |    
+          Svelte Kit proporciona la increíble experiencia de desarrollado de Svelte con todas
+          las características modernas que se esperan de una plataforma web.
+
+    - key: picks.xxxx.name
+      t:
+    - key: picks.xxxx.bio
+      t: 
+    - key: picks.xxxx.description
+      t: |   
+###########################################################################
+# Sponsors
+###########################################################################
+
+    - key: partners.frontendmasters.description
+      t: Mejore sus habilidades con cursos de ingeniería avanzados y modernos.
+    - key: partners.polypane.description
+      t: El navegador para desarrolladores ambiciosos. Crea sitios web adaptables, accesibles y rápidos facilmente.
+    - key: partners.google_chrome.description
+      t: Gracias el equipo de Google Chrome team por apoyar nuestro trabajo.
+
+###########################################################################
+# FAQ/About
+###########################################################################
+    
+    - key: about.content
+      t: >
+            
+            La encuesta del estado de JS de 2021 se realizó del 13 de enero al 2 de febrero de **2022** y recopiló 16085 respuestas. La encuesta es dirigida por mi, [Sacha Greif](https://sachagreif.com/), con la ayuda de un equipo de colaboradores y consultores de código abierto.
+
+            El logo y camiseta de este año fueron diseñados por [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+
+            ### Objetivos de la encuesta
+
+            Esta encuesta, junto con la encuesta [Estado de CSS](https://stateofcss.com/), se creó para identificar las próximas tendencias en el ecosistema de desarrollo web a fin de ayudar a los desarrolladores a tomar decisiones tecnológicas.
+
+            Como tal, estas encuestas se centran en anticipar lo que vendrá en los próximos años en lugar de analizar lo que es popular en el momento, por lo que no siempre se incluyen las características o tecnologías que están más utilizadas actualmente.
+
+            También deben tomarse como una **toma instantánea de un subconjunto específico de desarrolladores**, y no pretende hablar por todo el ecosistema.
+            
+            ### Diseño de la encuesta
+
+            Parte de laa encuesta fue diseñada en base a la encuesta del año pasado, con un período de comentarios abierto donde se discutió el esquema de la encuesta [en GitHub] (https://github.com/StateOfJS/Monorepo/issues/56).
+            
+            Todas las preguntas de la encuesta fueron opcionales.
+
+            ### Audiencia de la encuesta
+
+            La encuesta fue accesible públicamente en la web y los encuestados no fueron filtrados ni seleccionados de ninguna manera. Los encuestados fueron principalmente una combinación de encuestados de encuestas anteriores (alertados a través de una lista de correo dedicada) y tráfico de redes sociales.
+            
+
+            Tenga en cuenta que los framework, las librerías, etc. fueron libres de animar a su audiencia a participar en la encuesta y algunos de ellos lo hicieron a través de pancartas, tweets, etc. Se incluye un desglose detallado de las fuentes de tráfico en la gráfica de "Fuentes".
+
+            ### Representatividad e inclusión
+ 
+            Si bien creemos que es importante dar voz a cada comunidad, la realidad es que una encuesta abierta como esta siempre tendrá dificultades para representar adecuadamente a todos, especialmente cuando opera a través de sistemas que ya tienen sus propios sesgos inherentes.
+
+
+            Para contrarrestar esto, estamos implementando tres estrategias distintas:
+
+
+            - **Outreach**: siempre tratamos de llegar a diferentes organizaciones (como organizaciones enfocadas en BIPOC o LGBTQ, o plataformas de enseñanza en línea) para tratar de diversificar nuestra propia audiencia.
+            
+            - **Análisis de los datos**: a través de características como facetas y variantes, siempre intentamos que sea más fácil sacar a la luz las voces de cualquier segmento demográfico, sin importar cuán minoritario pueda ser en nuestros datos.
+            
+            - **Bajar las barreras**: hacer que la encuesta sea demasiada larga, inaccesible, lenta para cargar, sólo en inglés, etc. puede contribuir a imponer una "costo de esfuezo" que excluye a las partes de la comunidad que no pueden pagarlo. La solución de estos problemas puede reducir la barrera de entrada y, en el proceso, hacer que nuestra audiencia sea más diversa.
+
+            ### Financiamiento del proyecto
+    
+            La financiación de este proyecto proviene de una variedad de fuentes:
+
+
+            - **Venta de camisetas**. 
+
+            - **Gráficas de Patrocinadores**: los miembros de la comunidad pueden donar a la encuesta a cambio de que su nombre aparezca en los resultados.
+
+            - **Enlaces de patrocinadores**: los enlaces a los recursos recomendados en la parte inferior de cada página son proporcionados por nuestro socio [Frontend Masters] (https://frontendmasters.com/).
+            
+            - **Otros fondos**: este año, el equipo de trabajo de [Google Chrome](https://www.google.com/chrome/) reservó un pequeño presupuesto para ayudar a contratar a un [consultor de accesibilidad](https://fossheim.io/) para trabajar en las encuestas CSS y JS.
+
+            A pesar de estas fuentes de financiación, la encuesta sigue siendo en su mayoría un proyecto autofinanciado en general y cualquier contribución o patrocinio sería muy apreciada. En especial, me gustaría trabajar en estrecha colaboración con más proveedores de navegadores, ya que desempeñan un papel central en el ecosistema web.
+            
+            ### Resumen técnico
+
+            Puedes encontrar un informe técnico más detallado de cómo se desarrollan las encuestas [aquí](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
+
+            - **Recopilación de datos**: personalizada [Vulcan.js](http://vulcanjs.org/) app.
+
+            - **Almacenamiento/procesamiento de datos**: Agregaciones en MongoDB & MongoDB.
+            
+            - **API de datos**: Node.js GraphQL API. 
+            
+            - **Sitio de resultados**: [Gatsby](https://www.gatsbyjs.com/) applicación en React.
+            
+            - **Visualizaciones de datos**: [Nivo](https://nivo.rocks/) React dataviz librería. 
+            
+            - **Tipo de fuente**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) y [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
