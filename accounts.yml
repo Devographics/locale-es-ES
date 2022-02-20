@@ -21,7 +21,8 @@ translations:
     - key: accounts.error_internal_server_error
       t: Error de servidor
     - key: accounts.error_token_expired
-      t: El token ha expirado
+      t: Token de reestablecimiento de contraseña inválido
+      Invalid password reset token
     - key: accounts.username_or_email
       t: Nombre de usuario o correo electrónico
     - key: accounts.enter_username
