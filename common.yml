@@ -89,7 +89,7 @@ translations:
     - key: credits.logo_design
       t: Diseño del logo
     - key: credits.mobile_testing
-      t: Testeo para móviles
+      t: Pruebas para móviles
     - key: credits.data_visualizations
       t: Visualización de datos
     - key: credits.repo_architecture
@@ -137,7 +137,7 @@ translations:
 
           Tu información queda guardada. Puedes revisarla o modificarla hasta que la encuesta esté cerrada.
 
-          También puedes ayudarnos a llegar a todo el mundo compartiendo esta encuesta. Todo ayuda es poca. Así podremos hacer
+          También puedes ayudarnos a llegar a todo el mundo compartiendo esta encuesta. Todo ayuda cuenta. Así podremos hacer
           los datos recogidos más representativos:
     - key: thanks.learn_more_about
       t: 'Algunas de las características de las que quieres aprender más:'
@@ -172,7 +172,7 @@ translations:
     - key: partners.our_partners
       t: Nuestros socios
     - key: partners.become_partner
-      t: Convertirse en un socio
+      t: Conviértete en un socio
 
     # 404
     - key: notfound.title
@@ -884,32 +884,32 @@ translations:
     - key: user_info.job_title
       t: Título laboral
     - key: user_info.job_title.description
-      t: ¿Cómo te presentas a ti mismo en las fiestas?
+      t: ¿Cómo te presentas frente a otros?
 
     # javascript proficiency
     - key: user_info.javascript_proficiency
       t: Competencia con JavaScript
     - key: user_info.javascript_proficiency.description
-      t: ¿Cómo de competente eres con JavaScript?
+      t: ¿Qué tan competente eres con JavaScript?
 
     # css proficiency
     - key: user_info.css_proficiency
       t: Competencia con CSS
     - key: user_info.css_proficiency.description
-      t: ¿Cómo de competente eres con CSS?
+      t: ¿Qué tan competente eres con CSS?
 
     # backend proficiency
     - key: user_info.backend_proficiency
       t: Competencia en el backend
     - key: user_info.backend_proficiency.description
-      t: ¿Cómo de competente eres en el backend?
+      t: ¿Qué tan competente eres en el backend?
 
     # gender
     - key: user_info.gender
       t: Género
     - key: user_info.gender.description
       t: >
-        ¿Cuáles de las siguientes opciones te describen? Por favor, elige una.
+        ¿Cuál de las siguientes opciones te describen? Por favor, elige una.
     - key: user_info.gender.note
       t: >
         Aunque sabemos que recoger y publicar datos de diversidad puede ser un tema sensible,
@@ -942,7 +942,7 @@ translations:
 
     # other info
     - key: user_info.how_did_user_find_out_about_the_survey
-      t: ¿Cómo has conocido esta encuesta?
+      t: ¿Cómo te enteraste de esta encuesta?
     - key: user_info.email
       t: Tu correo electrónico
     - key: user_info.country
@@ -969,11 +969,11 @@ translations:
     - key: user_info.industry_sector
       t: Sector industrial
     - key: user_info.industry_sector.description
-      t: ¿En qué sector(es) industriales trabaja?
+      t: ¿En qué sector(es) industriales trabajas?
     - key: user_info.industry_sector.others
       t: Otros sectores industriales
     - key: user_info.industry_sector.others.description
-      t: Otros sectores industriales en los que trabaja no mencionados anteriormente.
+      t: Otros sectores industriales en los que trabajas no mencionados anteriormente.
 
     # degree
     - key: user_info.higher_education_degree

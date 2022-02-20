@@ -19,9 +19,9 @@ translations:
     - key: accounts.enter_username_or_email
       t: Introduce tu nombre de usuario o tu correo electrónico
     - key: accounts.error_internal_server_error
-      t: Error interno
+      t: Error de servidor
     - key: accounts.error_token_expired
-      t: Token inválido para renovar tu contraseña
+      t: El token ha expirado
     - key: accounts.username_or_email
       t: Nombre de usuario o correo electrónico
     - key: accounts.enter_username
@@ -41,11 +41,11 @@ translations:
     - key: accounts.change_password
       t: Cambia tu contraseña
     - key: accounts.reset_your_password
-      t: Renueva tu contraseña
+      t: Restablece tu contraseña
     - key: accounts.set_password
       t: Pon una contraseña
     - key: accounts.enter_new_password
-      t: Introduce una contraseña nueva
+      t: Introduce una nueva contraseña
     - key: accounts.new_password
       t: Nueva contraseña
     - key: accounts.forgot_password
@@ -53,11 +53,11 @@ translations:
     - key: accounts.sign_up
       t: Registrarse
     - key: accounts.sign_in
-      t: Entrar
+      t: Iniciar sesión
     - key: accounts.switch_to_sign_up
       t: ¿No tienes una cuenta? Créala
     - key: accounts.switch_to_sign_in
-      t: ¿Ya tienes una cuenta? Entrar
+      t: ¿Ya tienes una cuenta? Inicia sesión
     - key: accounts.sign_out
       t: Salir
     - key: accounts.cancel
@@ -69,7 +69,7 @@ translations:
     - key: accounts.please_pick_password
       t: Por favor, elige una nueva contraseña para continuar.
     - key: accounts.please_log_in
-      t: Por favor, regístrate o entra para continuar.
+      t: Por favor, regístrate o inicia sesión para continuar.
     - key: accounts.logged_in_as
       t: Registrado como {email}
     - key: accounts.questions

@@ -145,7 +145,7 @@ translations:
   - key: options.first_steps.blogs
     t: Blogs
   - key: options.first_steps.forums
-    t: Forums
+    t: Foros
   - key: options.first_steps.view_source
     t: Viendo código
   
@@ -196,7 +196,7 @@ translations:
     t: Conclusión
 
   - key: sections.about.title
-    t: A cerca de
+    t: Acerca de
 
   - key: sections.support.title
     t: Apóyanos
@@ -223,12 +223,12 @@ translations:
   - key: user_info.locale.note
     t: >
       Esta información se recoge automáticamente basándonos en la configuración del encuestado;
-      Los lenguajes con menos de 20 usuarios no se muestran.
+      Los lenguajes con menos de 20 encuestados no se muestran.
 
   - key: user_info.source
     t: Fuente
   - key: user_info.source.description
-    t: ¿Cómo se ha conocido la encuesta?
+    t: ¿Cómo se enteraron de la encuesta?
   - key: user_info.source.note
     t: Esta información es una combinación de las respuestas notificadas, información referida y datos de seguimiento de URLs.
 
@@ -377,7 +377,7 @@ translations:
   - key: blocks.tools_years_of_experience_heatmap.description
     t: |
       Para cada tecnología, como está extendido el uso entre los encuestados atendiendo a diferentes niveles de experiencia.
-      Pensad que la experiencia aquí es experiencia general, no experiencia con una tecnología específica.
+      Toma en cuenta que la experiencia aquí es experiencia general, no experiencia con una tecnología específica.
 
   # tool
   - key: blocks.entity.homepage_link
@@ -402,7 +402,7 @@ translations:
     t: Cambios a lo largo del tiempo
   - key: blocks.tools_arrows.description
     t: |
-      Cada línea va de 2016 a 2020. Un punto más alto significa que una tecnología ha sido utilizada por más personas,
+      Cada línea va de 2016 a 2021. Un punto más alto significa que una tecnología ha sido utilizada por más personas,
       y un punto más a la derecha significa que más usuarios quieren aprenderla; o la han usado y volvería a usarla.
   - key: blocks.tools_arrows.note
     t: |
@@ -717,7 +717,7 @@ translations:
   - key: share.options
     t: Opciones para compartir
   - key: share.preview
-    t: Vista previa de medio sociales
+    t: Vista previa en redes sociales
   - key: share.site.title
     t: Descubra los resultados de {siteTitle}
   - key: share.site.twitter_text
@@ -741,13 +741,13 @@ translations:
   - key: share.email
     t: Enviar por correo
   - key: share.image
-    t: Conseguir imágen
+    t: Obtener imágen
   - key: share.link
-    t: Link to section
+    t: Enlace de sección
   - key: share.url
-    t: Get link
+    t: Obtener enlace
   - key: share.close
-    t: Close
+    t: Cerrar
 
   ###########################################################################
   # Views
@@ -763,7 +763,7 @@ translations:
   - key: table.label
     t: Etiqueta
   - key: table.item
-    t: Item
+    t: Elemento
   - key: table.percentage_survey
     t: "% de encuestados"
   - key: table.percentage_question
@@ -861,7 +861,7 @@ translations:
     t: Concedido al recurso más utilizado entre los desarrolladores.
 
   - key: award.prediction_award.title
-    t: Premio a la redicción
+    t: Premio a la predicción
   - key: award.prediction_award.description
     t: Concedido a una tecnología que viene a triunfar… ¿o no?
 
