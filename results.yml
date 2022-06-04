@@ -8,9 +8,9 @@ translations:
     t: Empezar
 
   - key: page.previous
-    t: 'Anterior:'
+    t: "Anterior:"
   - key: page.next
-    t: 'Siguiente:'
+    t: "Siguiente:"
 
   - key: general.state_of_css_link
     t: Estado de CSS
@@ -19,7 +19,7 @@ translations:
     t: Alojado por <a href="{link}">Netlify</a>.
 
   - key: general.completion_percentage
-    t: 'Porcentaje completado:'
+    t: "Porcentaje completado:"
 
   - key: partners.thanks
     t: ¡Gracias a nuestros socios por apoyarnos!
@@ -133,7 +133,7 @@ translations:
   - key: options.quadrant.4.long
     t: |
       4: Muy utilizadas, baja satisfacción. Vuelve a evaluar estas tecnologías si las estás utilizando actualmente.
-   
+
   - key: ranges.selector.years_of_experience
     t: Experiencia
   - key: ranges.selector.yearly_salary
@@ -148,7 +148,7 @@ translations:
     t: Foros
   - key: options.first_steps.view_source
     t: Viendo código
-  
+
   # other disablities
   - key: options.disability_status_others.adhd
     t: ADHD
@@ -390,9 +390,9 @@ translations:
     t: Cardinalidad de uso de tecnología
   - key: blocks.all_sections_tools_cardinality_by_user.description
     t: >
-        Para cada sección, qué porcentaje de encuestados usa
-        (definido como haber respondido “volvería a usar”) una, dos, tres, etc.
-        tecnologías. La barra más baja representa la suma de las otras barras.
+      Para cada sección, qué porcentaje de encuestados usa
+      (definido como haber respondido “volvería a usar”) una, dos, tres, etc.
+      tecnologías. La barra más baja representa la suma de las otras barras.
 
   - key: blocks.cardinality.max
     t: Respuestas más comunes
@@ -560,13 +560,13 @@ translations:
   - key: custom_data.details
     t: >
 
-        1. Copia los contenidos de la consulta de GraphQL del campo de texto y pégalos en el pane central del explorador del [API de GraphQL](https://graphiql.stateofjs.com/).
+      1. Copia los contenidos de la consulta de GraphQL del campo de texto y pégalos en el pane central del explorador del [API de GraphQL](https://graphiql.stateofjs.com/).
 
-        2. Modifica la consulta añadiendo uno o más **filtros** usando la barra lateral izquierda del explorador. Asegúrate de mantener la estructura de datos general.
+      2. Modifica la consulta añadiendo uno o más **filtros** usando la barra lateral izquierda del explorador. Asegúrate de mantener la estructura de datos general.
 
-        3. En la ventana del explorador pulsa "Play" ("Execute Query").
+      3. En la ventana del explorador pulsa "Play" ("Execute Query").
 
-        4. Copia los resultados de la consulta modificada (`{ data: … }` ) dentro del campo "Custom Data" y envíalo.
+      4. Copia los resultados de la consulta modificada (`{ data: … }` ) dentro del campo "Custom Data" y envíalo.
 
   # Tools usage variations
   - key: blocks.tools_usage_variations
@@ -626,7 +626,7 @@ translations:
   - key: charts.all_respondents
     t: Todos los encuestados
   - key: charts.facet_responses
-    t: '{count} respuestas'
+    t: "{count} respuestas"
 
   - key: charts.axis_legends.years_of_experience
     t: Años de experiencia
@@ -721,17 +721,17 @@ translations:
   - key: share.site.title
     t: Descubra los resultados de {siteTitle}
   - key: share.site.twitter_text
-    t: 'Descubra los resultados de {siteTitle} {link} {hashtag}'
+    t: "Descubra los resultados de {siteTitle} {link} {hashtag}"
   - key: share.site.subject
     t: Resultados de la encuesta {siteTitle}
   - key: share.site.body
-    t: 'Aquí hay algunos resultados interesantes de una encuesta: {link}'
+    t: "Aquí hay algunos resultados interesantes de una encuesta: {link}"
   - key: share.block.twitter_text
-    t: '{hashtag} {year}: {title} {link}'
+    t: "{hashtag} {year}: {title} {link}"
   - key: share.block.subject
     t: Resultados de la encuesta {siteTitle}
   - key: share.block.body
-    t: 'Aquí hay algunos resultados interesantes de una encuesta ({title}): {link}'
+    t: "Aquí hay algunos resultados interesantes de una encuesta ({title}): {link}"
   - key: share.twitter
     t: Compartir en Twitter
   - key: share.facebook
@@ -741,7 +741,7 @@ translations:
   - key: share.email
     t: Enviar por correo
   - key: share.image
-    t: Obtener imágen
+    t: Obtener imagen
   - key: share.link
     t: Enlace de sección
   - key: share.url
@@ -793,7 +793,6 @@ translations:
     aliasFor: charts.axis_legends.usage_percentage
   - key: table.awareness_percentage
     aliasFor: charts.axis_legends.awareness_percentage
-
 
   - key: table.percentages_table
     t: Porcentaje
@@ -941,11 +940,10 @@ translations:
     t: >
       Gracias por apoyar la encuesta. Tu avatar debe aparecer junto al gráfico que elegiste
       en la próxima hora. Si no es así, [contáctanos] (mailto:chartsponsor@stateofjs.com).
-    
 
   - key: sponsor.sponsored_by
     t: >
-        **{name}** donó **${amount}** para patrocinar este gráfico
+      **{name}** donó **${amount}** para patrocinar este gráfico
 
   - key: sponsor.sponsor_button
     t: Patrocina esta gráfico
@@ -954,15 +952,15 @@ translations:
     t: Gráfico patrocinador "{title}"
 
   - key: sponsor.sponsor_chart.description
-    t: >   
+    t: >
       Apoya financieramente esta encuesta donando $10 o más, y obten tu
       ¡Avatar de Twitter junto a un gráfico!
 
   - key: sponsor.chart_id
-    t: 'ID del gráfico: '
+    t: "ID del gráfico: "
 
   - key: sponsor.sponsor_this_chart
-    t: Patricina este gráfico (${baseAmount}+) 
+    t: Patricina este gráfico (${baseAmount}+)
 
   - key: sponsor.how_it_works.title
     t: ¿Cómo funciona?
@@ -970,19 +968,18 @@ translations:
   - key: sponsor.how_it_works.description
     t: >
       1. Cuando **haces clic en el botón "Patrocinar este gráfico"**, serás redirigido a la página de pago de nuestro socio [SendOwl](https://www.sendowl.com/).
-      
-      
-      2. Luego puedes **ajustar la cantidad** por la que te gustaría patrocinar la encuesta, a partir de USD10.
-      
-      
-      3. Una vez que finalices la compra, podrás **proporcionar tu nombre de usuario de Twitter**.
-      
-      
-      4. Verás una página de **Descarga de archivos**, pero puedes ignorarla sin problemas.
-      
-      
-      5. El sitio se reconstruirá en segundo plano y tu nombre de usuario y donación **aparecerán junto al gráfico en la próxima hora**.
 
+
+      2. Luego puedes **ajustar la cantidad** por la que te gustaría patrocinar la encuesta, a partir de USD10.
+
+
+      3. Una vez que finalices la compra, podrás **proporcionar tu nombre de usuario de Twitter**.
+
+
+      4. Verás una página de **Descarga de archivos**, pero puedes ignorarla sin problemas.
+
+
+      5. El sitio se reconstruirá en segundo plano y tu nombre de usuario y donación **aparecerán junto al gráfico en la próxima hora**.
 
   - key: sponsor.faq.title
     t: Preguntas más frecuentes
@@ -1003,7 +1000,7 @@ translations:
   #   t: Can I donate on somebody else's behalf?
 
   # - key: sponsor.faq.donation_public.description
-  #   t: You can enter a Twitter username other than your own, but that person will have the right to remove the donation if they request it. 
+  #   t: You can enter a Twitter username other than your own, but that person will have the right to remove the donation if they request it.
 
   - key: sponsor.faq.refund.title
     t: ¿Cuál es su política de reembolso?
@@ -1015,7 +1012,7 @@ translations:
     t: ¿Las donaciones influyen en el contenido de la encuesta?
 
   - key: sponsor.faq.influence.description
-    t: Las donaciones se realizan una vez que la encuesta ya está publicada, y los donantes no tienen ninguna influencia en los contenidos de la encuesta. 
+    t: Las donaciones se realizan una vez que la encuesta ya está publicada, y los donantes no tienen ninguna influencia en los contenidos de la encuesta.
 
   - key: sponsor.faq.feedback.title
     t: ¿Dónde puedo dejar comentarios/hacer preguntas?
