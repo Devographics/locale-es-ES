@@ -174,7 +174,7 @@ translations:
 
     - key: sections.conclusion.description
       t: |
-            ¿Si los desarrolladores de JavaSCript escriben una línea de CSS, son ahora desarrolladores de CSS?
+            ¿Si los desarrolladores de JavaScript escriben una línea de CSS, son ahora desarrolladores de CSS?
             
             Este *kōan* sobre programación, ilustra una clara tendencia en el desarrollo web: así como a cada vez más desarrolladores de CSS les están pidiendo que aprendan JavaScript, más desarrolladores de JavaScript se están dando cuenta de que puede que haya algo más en esto del CSS que `font-weight: bold;`.
 
