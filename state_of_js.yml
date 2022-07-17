@@ -411,7 +411,7 @@ translations:
     # Resources
     ###########################################################################
     
-    - key: resources.first_steps
+    - key: resources.first_steps_js
       t: Primeros pasos con JavaScript
-    - key: resources.first_steps.description
+    - key: resources.first_steps_js.description
       t: ¿Cómo empezaste a aprender JavaScript?
