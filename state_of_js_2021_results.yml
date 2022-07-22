@@ -149,16 +149,16 @@ translations:
       t: Con una progresión de  **{value}** en 2021, el operador coalescente nulo (??) se ha convertido rápidamente en una parte integral de JavaScript.
 
     - key: award.tool_usage_delta_award.comment
-      t: esbuild tiene apenas dos años, pero con una progresión de **{valor}** en el último año ya está ganando terreno.
+      t: esbuild tiene apenas dos años, pero con una progresión de **{value}** en el último año ya está ganando terreno.
 
     - key: award.tool_satisfaction_award.comment
       t: Vite ocupa el primer lugar con un altísimo índice de satisfacción de **{value}**.
 
     - key: award.tool_interest_award.comment
-      t: ¡Con una relación de interés de **{valor}**, Vite vuelve a ganar el oro!
+      t: ¡Con una relación de interés de **{value}**, Vite vuelve a ganar el oro!
 
     - key: award.most_write_ins_award.comment
-      t: Muchas preguntas también aceptaron respuestas por escrito, y con **{valor}** menciones Elm fue el elemento más popular.
+      t: Muchas preguntas también aceptaron respuestas por escrito, y con **{value}** menciones Elm fue el elemento más popular.
       
 
     ###########################################################################
