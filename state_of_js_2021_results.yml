@@ -342,11 +342,11 @@ translations:
 # Sponsors
 ###########################################################################
 
-    - key: partners.frontendmasters.description
+    - key: sponsors.frontendmasters.description
       t: Mejore sus habilidades con cursos de ingeniería avanzados y modernos.
-    - key: partners.polypane.description
+    - key: sponsors.polypane.description
       t: El navegador para desarrolladores ambiciosos. Crea sitios web adaptables, accesibles y rápidos facilmente.
-    - key: partners.google_chrome.description
+    - key: sponsors.google_chrome.description
       t: Gracias el equipo de Google Chrome team por apoyar nuestro trabajo.
 
 ###########################################################################

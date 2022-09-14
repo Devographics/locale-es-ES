@@ -169,9 +169,9 @@ translations:
     t: Limpiar el campo
 
   # partners
-  - key: partners.our_partners
+  - key: sponsors.our_partners
     t: Nuestros socios
-  - key: partners.become_partner
+  - key: sponsors.become_partner
     t: Conviértete en un socio
 
   # 404
