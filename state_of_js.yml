@@ -210,31 +210,16 @@ translations:
     # syntax
     - key: features.destructuring
       t: Desestructurando
-    - key: features.destructuring.description
-      t: 'Ejemplo: `const { foo } = bar`'
     - key: features.spread_operator
       t: Spread operator
-    - key: features.spread_operator.description
-      t: 'Ejemplo: `[...array1, ...array2]`'
     - key: features.arrow_functions
       t: Arrow functions
-    - key: features.arrow_functions.description
-      t: 'Ejemplo: `const foo = () => {}`'
     - key: features.nullish_coalescing
       t: Nullish coalescing
-    - key: features.nullish_coalescing.description
-      t: >
-        Ejemplo: `const foo = 0 ?? 42`
     - key: features.optional_chaining
       t: Optional chaining
-    - key: features.optional_chaining.description
-      t: >
-        Ejemplo: `const dogName = adventurer.dog?.name`
     - key: features.private_fields
       t: Private fields
-    - key: features.private_fields.description
-      t: >
-        Ejemplo: `class ClassWithPrivateField { #privateField }`
 
     # language
     - key: features.proxies
@@ -251,9 +236,6 @@ translations:
         envolver un trozo de código con otro, literalmente, decorándolo.
     - key: features.dynamic_import
       t: Importación dinámica
-    - key: features.dynamic_import.description
-      t: >
-        Ejemplo: <code>await import('/modules/my-module.js')</code>
 
     # data structures
     - key: features.maps
