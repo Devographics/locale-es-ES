@@ -60,7 +60,7 @@ translations:
     t: Terminar encuesta
   - key: general.next_section
     t: Siguiente sección
-  - key: general.prev_section
+  - key: general.previous_section
     t: Sección anterior
   - key: general.survey_closed
     t: Esta encuesta está cerrada.
