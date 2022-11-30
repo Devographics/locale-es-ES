@@ -4,7 +4,7 @@ translations:
     # Introduction
     ###########################################################################
 
-    - key: sections.introduction.description
+    - key: introduction.js2021
       t: |
 
             <span class="first-letter">M</span> uchas cosas pasaron en el 2021. ¡Tanto, de hecho, que la encuesta se retrasó hasta 2022! 

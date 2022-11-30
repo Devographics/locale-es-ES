@@ -537,7 +537,7 @@ translations:
     t: Lo sentimo pero no está disponible exportar a CSV para estos datos.
   - key: export.graphql
     t: >
-      Puedes usar estas queries en nuestra <a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">API pública en GraphQL</a>.
+      Puedes usar estas queries en nuestra <a target="_blank" rel="nofollow" href="https://graphiql.devographics.com/">API pública en GraphQL</a>.
   - key: export.export_json
     t: Obtener un JSON
   - key: export.export_graphql

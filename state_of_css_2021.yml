@@ -4,7 +4,7 @@ translations:
     # Introduction
     ###########################################################################
 
-    - key: sections.introduction.description
+    - key: introduction.css2021
       t: |
 
             <span class="first-letter">¿</span>Deben los carpinteros aprender una forma nueva y mejorada de cortar la madera cada dos años? ¿Deben los pintores sentirse estafadores por seguir usando pintura óleo? o ¿somos sólo los desarrolladores front los que nos vemos sometidos a este cambio constante?
