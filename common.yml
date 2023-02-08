@@ -15,7 +15,7 @@ translations:
 
       - Darte acceso a tu información
 
-      - Salvar tu sesión según avanzas
+      - Guardar tu sesión según avanzas
 
       - Notificarte cuando tengamos los resultados
   - key: general.survey_closed
@@ -116,9 +116,9 @@ translations:
     t: Tabla de contenidos
   - key: general.all_questions_optional
     t: >
-      Nota: todas las preguntas son opcionales, así que no necesitas responderlas todas.
+      Nota: todas las preguntas son opcionales, así que no es necesario que las respondas todas.
   - key: general.data_is_saved
-    t: Salvamos tus respuestas cada vez que navegas entre secciones.
+    t: Guardamos tus respuestas cada vez que navegas entre secciones.
   - key: general.close_nav
     t: Cerrar el menú
   - key: general.open_nav
@@ -153,14 +153,14 @@ translations:
     t: Compártelo en Twitter
   - key: thanks.share_score_message
     t: >
-      Tengo una puntuación del {score}% en la encuesta #{hashtag} de este año! Haz la encuesta tú también aquí: {shareUrl}
+      Tengo una puntuación del {score}% en la encuesta #{hashtag} de este año! Haz la encuesta aquí también: {shareUrl}
   # share
   - key: general.share_subject
     t: >
       Encuesta {surveyName}
   - key: general.share_text
     t: >
-      ¡La encuesta {surveyName} de este año, está abierta! {link}
+      ¡La encuesta {surveyName} de este año está abierta! {link}
 
   # forms
   - key: forms.select_option
@@ -202,7 +202,7 @@ translations:
   ###########################################################################
 
   - key: sections.user_info.title
-    t: Sobre tí
+    t: Sobre ti
   - key: sections.user_info.description
     t: Déjanos conocer a tu verdadero yo.
 
@@ -243,7 +243,7 @@ translations:
 
   # features (no emoji)
   - key: options.features.never_heard.label
-    t: Nunca he oído hablar de ello/No estoy seguro de lo que es
+    t: 🤷 Nunca he oído hablar de ello/No estoy seguro de lo que es
   - key: options.features.heard.label
     t: Sé lo que es, pero nunca lo he usado
   - key: options.features.used.label
@@ -283,7 +283,7 @@ translations:
 
   # tools experience (no emoji)
   - key: options.tools.never_heard.legend
-    t: Nunca he oído hablar de ello/No estoy seguro de lo que es
+    t: 🤷 Nunca he oído hablar de ello/No estoy seguro de lo que es
   - key: options.tools.interested.legend
     t: He oído hablar de ello > Quiero aprenderlo
   - key: options.tools.not_interested.legend

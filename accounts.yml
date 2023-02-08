@@ -43,7 +43,7 @@ translations:
   - key: accounts.reset_your_password
     t: Restablece tu contraseña
   - key: accounts.set_password
-    t: Pon una contraseña
+    t: Establece una contraseña
   - key: accounts.enter_new_password
     t: Introduce una nueva contraseña
   - key: accounts.new_password
@@ -55,11 +55,11 @@ translations:
   - key: accounts.sign_in
     t: Iniciar sesión
   - key: accounts.switch_to_sign_up
-    t: ¿No tienes una cuenta? Créala
+    t: ¿No tienes una cuenta? Regístrate
   - key: accounts.switch_to_sign_in
     t: ¿Ya tienes una cuenta? Inicia sesión
   - key: accounts.sign_out
-    t: Salir
+    t: Cerrar sesión
   - key: accounts.cancel
     t: Cancelar
   - key: accounts.info_email_sent
