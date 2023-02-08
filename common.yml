@@ -475,7 +475,7 @@ translations:
 
   # job titles
   - key: options.job_title.cto
-    t: Jefe de Tecnología
+    t: Jefe/a de Tecnología o CTO
   - key: options.job_title.front_end_developer
     t: Desarrollador/a/a o Ingeniero/a de Front
   - key: options.job_title.back_end_developer
