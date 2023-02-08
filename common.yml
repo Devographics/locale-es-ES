@@ -477,21 +477,21 @@ translations:
   - key: options.job_title.cto
     t: Jefe de Tecnología
   - key: options.job_title.front_end_developer
-    t: Desarrollador o Ingeniero de Front
+    t: Desarrollador/a/a o Ingeniero/a de Front
   - key: options.job_title.back_end_developer
-    t: Desarrollador o Ingeniero de Back
+    t: Desarrollador/a/a o Ingeniero/a de Back
   - key: options.job_title.full_stack_developer
-    t: Desarrollador o Ingeniero Full Stack
+    t: Desarrollador/a/a o Ingeniero/a Full Stack
   - key: options.job_title.web_developer
-    t: Desarrollador Web
+    t: Desarrollador/a Web
   - key: options.job_title.web_designer
-    t: Diseñador Web
+    t: Diseñador/a Web
   - key: options.job_title.ux_designer
-    t: Diseñador UX
+    t: Diseñador/a UX
   - key: options.job_title.ui_designer
-    t: Diseñador UI
+    t: Diseñador/a UI
   - key: options.job_title.back_end_dev
-    t: Desarrollador o Ingeniero de Back
+    t: Desarrollador/a o Ingeniero/a de Back
 
   # JavaScript proficiency
   - key: options.javascript_proficiency.0
@@ -747,7 +747,7 @@ translations:
   - key: options.tool_evaluation.user_base_size.description
     t: ¿Es una opción bien establecida con una larga trayectoria?
   - key: options.tool_evaluation.developer_experience_tooling
-    t: Experiencia de desarrollador
+    t: Experiencia de Desarrollador/a
   - key: options.tool_evaluation.developer_experience_tooling.description
     t: Tiene buenas herramientas de desarrollo, un gran ecosistema de plugins, etc.?
   - key: options.tool_evaluation.performance_user_experience
