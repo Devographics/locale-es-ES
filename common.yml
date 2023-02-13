@@ -15,7 +15,7 @@ translations:
 
       - Darte acceso a tu información
 
-      - Salvar tu sesión según avanzas
+      - Guardar tu sesión según avanzas
 
       - Notificarte cuando tengamos los resultados
   - key: general.survey_closed
@@ -116,9 +116,9 @@ translations:
     t: Tabla de contenidos
   - key: general.all_questions_optional
     t: >
-      Nota: todas las preguntas son opcionales, así que no necesitas responderlas todas.
+      Nota: todas las preguntas son opcionales, así que no es necesario que las respondas todas.
   - key: general.data_is_saved
-    t: Salvamos tus respuestas cada vez que navegas entre secciones.
+    t: Guardamos tus respuestas cada vez que navegas entre secciones.
   - key: general.close_nav
     t: Cerrar el menú
   - key: general.open_nav
@@ -153,14 +153,14 @@ translations:
     t: Compártelo en Twitter
   - key: thanks.share_score_message
     t: >
-      Tengo una puntuación del {score}% en la encuesta #{hashtag} de este año! Haz la encuesta tú también aquí: {shareUrl}
+      Tengo una puntuación del {score}% en la encuesta #{hashtag} de este año! Haz la encuesta aquí también: {shareUrl}
   # share
   - key: general.share_subject
     t: >
       Encuesta {surveyName}
   - key: general.share_text
     t: >
-      ¡La encuesta {surveyName} de este año, está abierta! {link}
+      ¡La encuesta {surveyName} de este año está abierta! {link}
 
   # forms
   - key: forms.select_option
@@ -202,7 +202,7 @@ translations:
   ###########################################################################
 
   - key: sections.user_info.title
-    t: Sobre tí
+    t: Sobre ti
   - key: sections.user_info.description
     t: Déjanos conocer a tu verdadero yo.
 
@@ -243,23 +243,23 @@ translations:
 
   # features (no emoji)
   - key: options.features.never_heard.label
-    t: Nunca he oído hablar de ello/No estoy seguro de lo que es
+    t: 🤷 Nunca he oído hablar de ello/No estoy seguro de lo que es
   - key: options.features.heard.label
-    t: Sé lo que es, pero nunca lo he usado
+    t: ✅ Sé lo que es, pero nunca lo he usado
   - key: options.features.used.label
-    t: Lo he usado
+    t: 👍 Lo he usado
 
   # features (short versions)
   - key: options.features.never_heard.short
-    t: Nunca he oído hablar de ello
+    t: 🤷 Nunca he oído hablar de ello
   - key: options.features.heard.short
-    t: Lo conozco
+    t: ✅ Lo conozco
   - key: options.features.used.short
-    t: Lo he usado
+    t: 👍 Lo he usado
 
   # patterns
   - key: options.patterns.use_never
-    t: Casi siempre lo evito
+    t: Nunca lo uso
   - key: options.patterns.use_sparingly
     t: Raramente lo uso
   - key: options.patterns.use_neutral
@@ -267,7 +267,7 @@ translations:
   - key: options.patterns.use_frequently
     t: Lo uso con frecuencia
   - key: options.patterns.use_always
-    t: Lo uso todo lo que puedo
+    t: Lo uso siempre que puedo
 
   # tools experience
   - key: options.tools.never_heard
@@ -283,15 +283,15 @@ translations:
 
   # tools experience (no emoji)
   - key: options.tools.never_heard.legend
-    t: Nunca he oído hablar de ello/No estoy seguro de lo que es
+    t: 🤷 Nunca he oído hablar de ello/No estoy seguro de lo que es
   - key: options.tools.interested.legend
-    t: He oído hablar de ello > Quiero aprenderlo
+    t: ✅ He oído hablar de ello > Quiero aprenderlo
   - key: options.tools.not_interested.legend
-    t: He oído hablar de ello > No estoy interesado
+    t: 🚫 He oído hablar de ello > No estoy interesado
   - key: options.tools.would_use.legend
-    t: Lo he usado > Lo volvería a usar
+    t: 👍 Lo he usado > Lo volvería a usar
   - key: options.tools.would_not_use.legend
-    t: Lo he usado > No lo volvería a usar
+    t: 👎 Lo he usado > No lo volvería a usar
 
   # tools experience (short versions)
   - key: options.tools.never_heard.short
@@ -307,9 +307,9 @@ translations:
 
   # happiness
   - key: options.happiness.0
-    t: Muy descontento
+    t: Muy insatisfecho
   - key: options.happiness.1
-    t: Descontento
+    t: Insatisfecho
   - key: options.happiness.2
     t: Neutro
   - key: options.happiness.3
@@ -319,27 +319,27 @@ translations:
 
   # happiness (short version)
   - key: options.happiness.0.short
-    t: Muy descontento
+    t: Muy insatisfecho
   - key: options.happiness.1.short
-    t: Descontento
+    t: Insatisfecho
   - key: options.happiness.2.short
     t: Neutro
   - key: options.happiness.3.short
     t: Satisfecho
   - key: options.happiness.4.short
-    t: Muy Ssatisfecho
+    t: Muy satisfecho
 
   # opinions
   - key: options.opinions.0
-    t: Estoy fuertemente en desacuerdo
+    t: Estoy totalmente en desacuerdo
   - key: options.opinions.1
-    t: Estoy en desacuerdo
+    t: Estoy parcialmente en desacuerdo
   - key: options.opinions.2
-    t: Neutro
+    t: Ni en desacuerdo ni de acuerdo
   - key: options.opinions.3
-    t: Estoy de acuerdo
+    t: Estoy parcialmente de acuerdo
   - key: options.opinions.4
-    t: Estoy fuertemente de acuerdo
+    t: Estoy totalmente de acuerdo
 
   # age
   - key: options.age.range_less_than_10
@@ -445,53 +445,53 @@ translations:
   - key: options.yearly_salary.range_work_for_free
     t: Trabajo gratis
   - key: options.yearly_salary.range_0_10
-    t: $0k-$10k
+    t: De 0$ a 10.000$ anuales
   - key: options.yearly_salary.range_10_30
-    t: $10k-$30k
+    t: De 10.000$ a 30.000$ anuales
   - key: options.yearly_salary.range_30_50
-    t: $30k-$50k
+    t: De 30.000$ a 50.000$ anuales
   - key: options.yearly_salary.range_50_100
-    t: $50k-$100k
+    t: De 50.000$ a 100.000$ anuales
   - key: options.yearly_salary.range_100_200
-    t: $100k-$200k
+    t: De 100.000$ a 200.000$ anuales
   - key: options.yearly_salary.range_more_than_200
-    t: Más de $200k
+    t: Más de 200.000$ anuales
 
   # salary (short versions)
   - key: options.yearly_salary.range_work_for_free.short
     t: "0"
   - key: options.yearly_salary.range_0_10.short
-    t: 0~10k
+    t: 0-10k
   - key: options.yearly_salary.range_10_30.short
-    t: 10~30k
+    t: 10-30k
   - key: options.yearly_salary.range_30_50.short
-    t: 30~50k
+    t: 30-50k
   - key: options.yearly_salary.range_50_100.short
-    t: 50~100k
+    t: 50-100k
   - key: options.yearly_salary.range_100_200.short
-    t: 100~200k
+    t: 100-200k
   - key: options.yearly_salary.range_more_than_200.short
     t: ">200k"
 
   # job titles
   - key: options.job_title.cto
-    t: Jefe de Tecnología
+    t: Jefe/a de Tecnología o CTO
   - key: options.job_title.front_end_developer
-    t: Desarrollador o Ingeniero de Front
+    t: Desarrollador/a/a o Ingeniero/a de Front
   - key: options.job_title.back_end_developer
-    t: Desarrollador o Ingeniero de Back
+    t: Desarrollador/a/a o Ingeniero/a de Back
   - key: options.job_title.full_stack_developer
-    t: Desarrollador o Ingeniero Full Stack
+    t: Desarrollador/a/a o Ingeniero/a Full Stack
   - key: options.job_title.web_developer
-    t: Desarrollador Web
+    t: Desarrollador/a Web
   - key: options.job_title.web_designer
-    t: Diseñador Web
+    t: Diseñador/a Web
   - key: options.job_title.ux_designer
-    t: Diseñador UX
+    t: Diseñador/a UX
   - key: options.job_title.ui_designer
-    t: Diseñador UI
+    t: Diseñador/a UI
   - key: options.job_title.back_end_dev
-    t: Desarrollador o Ingeniero de Back
+    t: Desarrollador/a o Ingeniero/a de Back
 
   # JavaScript proficiency
   - key: options.javascript_proficiency.0
@@ -747,7 +747,7 @@ translations:
   - key: options.tool_evaluation.user_base_size.description
     t: ¿Es una opción bien establecida con una larga trayectoria?
   - key: options.tool_evaluation.developer_experience_tooling
-    t: Experiencia de desarrollador
+    t: Experiencia de Desarrollador/a
   - key: options.tool_evaluation.developer_experience_tooling.description
     t: Tiene buenas herramientas de desarrollo, un gran ecosistema de plugins, etc.?
   - key: options.tool_evaluation.performance_user_experience
