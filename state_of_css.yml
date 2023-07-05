@@ -451,10 +451,6 @@ translations:
     t: Alcance
   - key: features.scoping.description
     t: La habilidad de ser más específico con los estilos aplicados.
-  - key: features.subgrid
-    t: Subgrid
-  - key: features.subgrid.description
-    t: Anidando en niveles más profundos subgrids dentro del grid del padre.
 
   ###########################################################################
   # Units & Selectors
