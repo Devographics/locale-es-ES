@@ -1,0 +1,8 @@
+locale: en-US
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.results.description
+    t: La edición 2022 de la encuesta anual sobre las últimas tendencias en el ecosistema HTML.
