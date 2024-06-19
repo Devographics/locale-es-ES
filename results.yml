@@ -453,7 +453,7 @@ translations:
   # tool tier list
   - key: blocks.tools_tier_list
     t: Lista de niveles de la librería
-  - key: blocks.tools_tier_list.description
+  - key: blocks.tools_tier_list.note
     t: |
       Este gráfico clasifica las librerías según su índice de satisfacción (porcentaje de usuarios
       quién volvería a usar una librería). Ten en cuenta que las librerías que son utilizadas por menos del 10% de
