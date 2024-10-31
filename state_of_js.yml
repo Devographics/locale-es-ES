@@ -91,9 +91,9 @@ translations:
   - key: sections.monorepo_tools.description
     t: Herramientas utilizadas para manejar monorepos.
 
-  - key: sections.tools_others.title
+  - key: sections.tools.title
     t: Otras herramientas
-  - key: sections.tools_others.description
+  - key: sections.tools.description
     t: Otras herramientas de JavaScript.
 
   - key: sections.other_tools.title
@@ -314,27 +314,27 @@ translations:
   # Other Tools
   ###########################################################################
 
-  - key: tools_others.runtimes
+  - key: tools.runtimes
     t: JavaScript runtimes
-  - key: tools_others.runtimes.question
+  - key: tools.runtimes.question
     t: ¿Qué motores/runtimes/entornos de ejecución usas con regularidad?
-  - key: tools_others.runtimes.others
+  - key: tools.runtimes.others
     t: Otros runtimes
-  - key: tools_others.runtimes.others.description
+  - key: tools.runtimes.others.description
     t: Otras respuestas (campos de texto libre).
 
-  - key: tools_others.package_registries
+  - key: tools.package_registries
     t: Registros de paquetes
-  - key: tools_others.package_registries.question
+  - key: tools.package_registries.question
     t: ¿De que registros de paquetes coges paquetes con regularidad?
-  - key: tools_others.package_registries.others
+  - key: tools.package_registries.others
     t: Otros registros de paquetes
-  - key: tools_others.package_registries.others.description
+  - key: tools.package_registries.others.description
     t: Otras respuestas (campos de texto libre).
 
-  - key: tools_others.form_factors
+  - key: tools.form_factors
     aliasFor: environments.form_factors
-  - key: tools_others.form_factors.description
+  - key: tools.form_factors.description
     aliasFor: environments.form_factors.question
 
   ###########################################################################
