@@ -721,7 +721,7 @@ translations:
   - key: share.site.title
     t: Descubra los resultados de {siteTitle}
   - key: share.site.twitter_text
-    t: "Descubra los resultados de {siteTitle} {link} {hashtag}"
+    t: "Descubra los resultados de {siteTitle} {link}"
   - key: share.site.subject
     t: Resultados de la encuesta {siteTitle}
   - key: share.site.body
