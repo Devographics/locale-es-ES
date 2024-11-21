@@ -34,6 +34,16 @@ translations:
       <a href="{link}">Volver</a> a la página principal para continuar con la encuesta o empezarla.
   - key: general.take_survey
     t: Completar la encuesta {name}
+  - key: homepage.past_surveys
+    t: Encuestas Anteriores
+  - key: homepage.with_support_from
+    t: Con el Apoyo Especial de
+    
+  # Footer
+  - key: languages.available_languages
+    t: Idiomas disponibles
+  - key: languages.help_us_translate
+    t: Ayúdanos a traducir la encuesta en tu idioma →
 
   # surveys
   - key: general.open_surveys
