@@ -176,9 +176,9 @@ translations:
     t: Identificación de patrones
   - key: options.currently_missing_from_js.pattern_matching.description
     t: Una nueva palabra clave `match` para objetos para identificación de patrones.
-  - key: options.currently_missing_from_js.pipe_operator
+  - key: options.currently_missing_from_js.js_pipeline_operator
     t: Operador pipe
-  - key: options.currently_missing_from_js.pipe_operator.description
+  - key: options.currently_missing_from_js.js_pipeline_operator.description
     t: Un nuevo operador `|>` para pasar resultados entre funciones.
   - key: options.currently_missing_from_js.decorators
     t: Decoradores
@@ -295,7 +295,7 @@ translations:
   # - key: features.pattern_matching
   #   t: Pattern Matching
 
-  # - key: features.pipe_operator
+  # - key: features.js_pipeline_operator
   #   t: Pipe Operator
 
   # - key: features.immutable_data_structures
